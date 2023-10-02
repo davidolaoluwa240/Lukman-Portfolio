@@ -2,7 +2,7 @@
 import React from "react";
 
 // Images
-// import
+import NavbarLogo from "../../assets/images/logo.svg?react";
 
 // Styles
 import {
@@ -17,7 +17,7 @@ export const Navbar = () => {
   return (
     <NavbarWrapper>
       <NavbarContainer>
-        {/* <NavbarBrand aria-label=""/> */}
+        <NavbarLogo aria-label="Lukman Portfolio Logo" />
 
         <NavbarList>
           <NavbarItem>
@@ -33,7 +33,13 @@ export const Navbar = () => {
           </NavbarItem>
 
           <NavbarItem>
-            <NavbarLink to="/resume">Resume</NavbarLink>
+            <NavbarLink
+              as="a"
+              target="_blank"
+              href="https://drive.google.com/file/d/13U4t4lr6T_ydrKNZ-zohZ2B950oyudqh/view?usp=sharing"
+            >
+              Resume
+            </NavbarLink>
           </NavbarItem>
         </NavbarList>
       </NavbarContainer>

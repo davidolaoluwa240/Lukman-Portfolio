@@ -4,13 +4,18 @@ import React from "react";
 // Components
 import { Routes as Switch, Route } from "react-router-dom";
 
+// Pages
+import { Home } from "../pages";
+
 // Layouts
 import { DefaultLayout } from "../layouts";
 
 export const Routes = () => {
   return (
     <Switch>
-      <Route path="/" element={<DefaultLayout />}></Route>
+      <Route path="/" element={<DefaultLayout />}>
+        <Route index element={<Home />} />
+      </Route>
     </Switch>
   );
 };
