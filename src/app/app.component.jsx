@@ -10,9 +10,11 @@ import { GlobalStyle } from "./app.styles";
 
 export const App = () => {
   return (
-    <Suspense fallback={<div>Loading Spinner Goes Here...</div>}>
+    <Fragment>
       <GlobalStyle />
-      <Routes />
-    </Suspense>
+      <Suspense fallback={<div>Loading Spinner Goes Here...</div>}>
+        <Routes />
+      </Suspense>
+    </Fragment>
   );
 };
