@@ -20,8 +20,11 @@ export const HomeHero = () => {
       </HomeHeroTag>
 
       <HomeHeroHeading>
-        I'm Lukman based in Nigerian <br />a senior designer & No-code
-        enthusiast, designing Product’s that Simplify & Enhance Everyday Life
+        I'm Lukman based in Nigerian <br />
+        <span className="is-lower">
+          a senior designer & No-code enthusiast, designing Product’s that
+          Simplify & Enhance Everyday Life
+        </span>
       </HomeHeroHeading>
 
       <p>

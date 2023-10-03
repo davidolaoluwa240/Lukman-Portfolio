@@ -10,7 +10,7 @@ import {
   Experience,
 } from "../../components";
 
-export const About = () => {
+const About = () => {
   return (
     <Fragment>
       <AboutHero />
@@ -20,3 +20,5 @@ export const About = () => {
     </Fragment>
   );
 };
+
+export default About;

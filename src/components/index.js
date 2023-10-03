@@ -15,3 +15,7 @@ export * from "./about-gallery/about-gallery.component";
 export * from "./experience/experience.component";
 export * from "./experience/experience-list/experience-list.component";
 export * from "./experience/experience-card/experience-card.component";
+export * from "./bookshelf-hero/bookshelf-hero.component";
+export * from "./bookshelf-books/bookshelft-books.component";
+export * from "./bookshelf-books/bookshelf-books-list/bookshelf-books-list.component";
+export * from "./bookshelf-books/bookshelf-books-card/bookshelf-books-card.component";

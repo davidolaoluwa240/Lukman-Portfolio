@@ -1,11 +1,21 @@
 // IMAGES
 // ===============================================================================
-// =========================CASE STUDIES iMAGES===================================
+// =========================CASE STUDIES IMAGES===================================
 // ===============================================================================
 import CaseStudyCardBongalo from "../assets/images/case-study-card-bongalo.svg?react";
 import CaseStudyCardFreterium from "../assets/images/case-study-card-freterium.svg?react";
 import CaseStudyCardAsusu from "../assets/images/case-study-card-asusu.svg?react";
 import CaseStudyCardSwimmo from "../assets/images/case-study-card-swimmo.svg?react";
+// ===============================================================================
+// ===============================================================================
+// ===============================================================================
+
+// ===============================================================================
+// ===========================Book Shelf IMAGES===================================
+// ===============================================================================
+import MarcusAureliusBook from "../assets/images/marcus-aurelius.svg?react";
+import NavalAlmanackBook from "../assets/images/naval-almanack.svg?react";
+import ManSearchingForMeaningBook from "../assets/images/mans-search-for-meaning.svg?react";
 // ===============================================================================
 // ===============================================================================
 // ===============================================================================
@@ -145,5 +155,24 @@ export const EXPERIENCES_ITEMS = [
     role: "UI/UX Designer",
     dateRange: "Feb. 2017 - Oct. 2019",
     to: "https://www.asusu.ng/",
+  },
+];
+
+// Book Shelf Books Items
+export const BOOKSHELF_BOOKS_ITEMS = [
+  {
+    id: 1,
+    img: MarcusAureliusBook,
+    name: "Marcus Aurelius",
+  },
+  {
+    id: 2,
+    img: NavalAlmanackBook,
+    name: "The Almanack Of Naval RaviKant",
+  },
+  {
+    id: 3,
+    img: ManSearchingForMeaningBook,
+    name: "Man Searching For Meaning",
   },
 ];

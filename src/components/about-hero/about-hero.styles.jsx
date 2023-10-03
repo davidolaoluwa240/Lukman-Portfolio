@@ -10,4 +10,5 @@ export const AboutHeroContainer = styled(Container)`
 
 export const AboutHeroHeading = styled(PrimaryHeading)`
   margin-bottom: 4rem;
+  text-transform: capitalize;
 `;
