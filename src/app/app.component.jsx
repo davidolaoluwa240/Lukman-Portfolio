@@ -2,7 +2,7 @@
 import React from "react";
 
 // Components
-import { Fragment } from "react";
+import { Suspense } from "react";
 import { Routes } from "../routes/routes.component";
 
 // Styles
@@ -10,9 +10,9 @@ import { GlobalStyle } from "./app.styles";
 
 export const App = () => {
   return (
-    <Fragment>
+    <Suspense fallback={<div>Loading Spinner Goes Here...</div>}>
       <GlobalStyle />
       <Routes />
-    </Fragment>
+    </Suspense>
   );
 };
