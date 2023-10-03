@@ -2,7 +2,7 @@
 import React from "react";
 
 // Components
-import { Suspense } from "react";
+import { Suspense, Fragment } from "react";
 import { Routes } from "../routes/routes.component";
 
 // Styles
