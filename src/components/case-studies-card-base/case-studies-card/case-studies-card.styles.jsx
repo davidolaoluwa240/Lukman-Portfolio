@@ -5,7 +5,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const CaseStudiesCardWrapper = styled.figure`
-  min-height: 437px;
+  min-height: 517px;
   background: ${({ $background }) => $background};
   padding-top: 3rem;
   border-radius: 12px;

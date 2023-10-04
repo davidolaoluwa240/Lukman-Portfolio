@@ -24,10 +24,6 @@ export const NavbarItem = styled.li`
   &:not(:last-child) {
     margin-right: 2.5rem;
   }
-
-  &:last-child a {
-    text-decoration: underline;
-  }
 `;
 
 export const NavbarLink = styled(NavLink)`

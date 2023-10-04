@@ -10,7 +10,6 @@ import DribbleIcon from "../../assets/images/dribble-icon.svg?react";
 
 // Styles
 import {
-  FooterWrapper,
   FooterContainer,
   FooterHeading,
   FooterContent,
@@ -20,7 +19,7 @@ import {
 
 export const Footer = () => {
   return (
-    <FooterWrapper>
+    <footer>
       <FooterContainer>
         <FooterContentGroup>
           <FooterHeading>Let’s push boundaries</FooterHeading>
@@ -55,6 +54,6 @@ export const Footer = () => {
         </FooterContentGroup>
         <FooterImg />
       </FooterContainer>
-    </FooterWrapper>
+    </footer>
   );
 };

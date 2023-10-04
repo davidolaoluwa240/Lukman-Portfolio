@@ -4,15 +4,9 @@ import styled from "styled-components";
 //  Components
 import { Container, PrimaryHeading } from "../../assets/styles/common.styles";
 
-export const FooterWrapper = styled(Container)`
-  margin-top: 9.6rem;
-  padding: 0 0.14rem 8.2rem 4.095rem;
-`;
-
 export const FooterContainer = styled(Container)`
-  max-width: 727px;
-  margin-right: 0;
-  margin-left: auto;
+  margin-top: 9.6rem;
+  padding-bottom: 8.2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;

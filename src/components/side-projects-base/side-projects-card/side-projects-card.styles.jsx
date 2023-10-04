@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const SideProjectsCardWrapper = styled.li`
   display: flex;
   justify-content: space-between;
-  padding: 1.7rem 4.3rem 1.75rem 0;
+  padding: 1.7rem 4.3rem 1.75rem 2rem;
   cursor: pointer;
   border-radius: 12px;
   transition: background 0.3s linear;

@@ -9,5 +9,5 @@ export const SideProjectsBaseContainer = styled(Container)`
 `;
 
 export const SideProjectsBaseHeading = styled(SecondaryHeading)`
-  margin-bottom: 4.14rem;
+  margin-bottom: 3.2rem;
 `;
