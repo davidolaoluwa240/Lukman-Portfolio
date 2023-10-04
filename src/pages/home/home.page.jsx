@@ -9,7 +9,7 @@ import {
   SideProjectsBase,
 } from "../../components";
 
-const Home = () => {
+export const Home = () => {
   return (
     <Fragment>
       <HomeHero />
@@ -18,5 +18,3 @@ const Home = () => {
     </Fragment>
   );
 };
-
-export default Home;

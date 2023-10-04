@@ -7,6 +7,9 @@ import { BrowserRouter } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react";
 import { App } from "./app/app.component";
 
+// Styles
+import "./main.css";
+
 // Mount React To DOM
 const container = document.getElementById("root");
 const root = ReactDOM.createRoot(container);

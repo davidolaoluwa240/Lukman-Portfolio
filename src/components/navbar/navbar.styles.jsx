@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 import { Container } from "../../assets/styles/common.styles";
 
 export const NavbarWrapper = styled.nav`
-  height: 126px;
+  height: 128px;
 `;
 
 export const NavbarContainer = styled(Container)`

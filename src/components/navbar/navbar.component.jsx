@@ -1,7 +1,8 @@
 // Modules
 import React from "react";
 
-// Images
+// Components
+import { Link } from "react-router-dom";
 import NavbarLogo from "../../assets/images/logo.svg?react";
 
 // Styles
@@ -17,7 +18,9 @@ export const Navbar = () => {
   return (
     <NavbarWrapper>
       <NavbarContainer>
-        <NavbarLogo aria-label="Lukman Portfolio Logo" />
+        <Link to="/">
+          <NavbarLogo aria-label="Lukman Portfolio Logo" />
+        </Link>
 
         <NavbarList>
           <NavbarItem>

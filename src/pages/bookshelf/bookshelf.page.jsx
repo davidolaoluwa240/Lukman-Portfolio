@@ -5,7 +5,7 @@ import React from "react";
 import { Fragment } from "react";
 import { BookshelfHero, BookshelfBooks } from "../../components";
 
-const Bookshelf = () => {
+export const Bookshelf = () => {
   return (
     <Fragment>
       <BookshelfHero />
@@ -13,5 +13,3 @@ const Bookshelf = () => {
     </Fragment>
   );
 };
-
-export default Bookshelf;

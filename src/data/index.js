@@ -16,6 +16,9 @@ import CaseStudyCardSwimmo from "../assets/images/case-study-card-swimmo.svg?rea
 import MarcusAureliusBook from "../assets/images/marcus-aurelius.svg?react";
 import NavalAlmanackBook from "../assets/images/naval-almanack.svg?react";
 import ManSearchingForMeaningBook from "../assets/images/mans-search-for-meaning.svg?react";
+import SapiensBook from "../assets/images/sapiens.svg?react";
+import DeepWorkBook from "../assets/images/deep-work.svg?react";
+import StopWorringBook from "../assets/images/stop-worrying.svg?react";
 // ===============================================================================
 // ===============================================================================
 // ===============================================================================
@@ -174,5 +177,20 @@ export const BOOKSHELF_BOOKS_ITEMS = [
     id: 3,
     img: ManSearchingForMeaningBook,
     name: "Man Searching For Meaning",
+  },
+  {
+    id: 4,
+    img: SapiensBook,
+    name: "A Brief History Of Human Kind",
+  },
+  {
+    id: 5,
+    img: DeepWorkBook,
+    name: "Deep Work",
+  },
+  {
+    id: 6,
+    img: StopWorringBook,
+    name: "How Stop Worrying And Start Living",
   },
 ];
