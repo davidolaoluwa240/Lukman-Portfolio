@@ -2,7 +2,6 @@
 import React from "react";
 
 // Components
-import { Fragment } from "react";
 import {
   AboutHero,
   AboutInfo,
@@ -10,13 +9,16 @@ import {
   Experience,
 } from "../../components";
 
+// Styles
+import { AboutWrapper } from "./about.styles";
+
 export const About = () => {
   return (
-    <Fragment>
+    <AboutWrapper>
       <AboutHero />
       <AboutInfo />
       <AboutGallery />
       <Experience />
-    </Fragment>
+    </AboutWrapper>
   );
 };

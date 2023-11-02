@@ -2,19 +2,21 @@
 import React from "react";
 
 // Components
-import { Fragment } from "react";
 import {
   HomeHero,
   CaseStudiesCardBase,
   SideProjectsBase,
 } from "../../components";
 
+// Styles
+import { HomeWrapper } from "./home.styles";
+
 export const Home = () => {
   return (
-    <Fragment>
+    <HomeWrapper>
       <HomeHero />
       <CaseStudiesCardBase />
       <SideProjectsBase />
-    </Fragment>
+    </HomeWrapper>
   );
 };
