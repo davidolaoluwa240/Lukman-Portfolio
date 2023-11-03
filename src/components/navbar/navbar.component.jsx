@@ -14,9 +14,9 @@ import {
   NavbarLink,
 } from "./navbar.styles";
 
-export const Navbar = () => {
+export const Navbar = ({ color }) => {
   return (
-    <NavbarWrapper>
+    <NavbarWrapper $color={color}>
       <NavbarContainer>
         <Link to="/">
           <NavbarLogo aria-label="Lukman Portfolio Logo" />

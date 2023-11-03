@@ -16,7 +16,7 @@ export const CaseStudiesCardList = ({ items }) => {
     ({ id, applyMargin, cards }) => (
       <CaseStudiesCardListGroup key={id} $applyMargin={applyMargin}>
         {cards.map(({ id, ...restCard }) => (
-          <CaseStudiesCard key={id} {...restCard} />
+          <CaseStudiesCard key={id} id={id} {...restCard} />
         ))}
       </CaseStudiesCardListGroup>
     )

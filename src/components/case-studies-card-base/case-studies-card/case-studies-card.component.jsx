@@ -14,11 +14,12 @@ export const CaseStudiesCard = ({
   title,
   bgColor,
   to,
+  id,
   ...restProps
 }) => {
   return (
     <CaseStudiesCardWrapper $background={bgColor} {...restProps}>
-      <CaseStudiesCardLink to={to} />
+      <CaseStudiesCardLink to={`${to}/${id}`} />
       <CaseStudiesCardImage aria-label={title} />
       <CaseStudiesCardCaption>
         <p>{role}</p>

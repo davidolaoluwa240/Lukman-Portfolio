@@ -60,7 +60,9 @@
 
 :root {
   --primary-color: #212121;
+  --secondary-color: #d7edff;
   --body-color: #f9f9f9;
+  --dark-gray: #1d1e21;
   --white-color: #ffffff;
 }
 
@@ -76,6 +78,7 @@ body {
   font-family: Studio Feixen Edgy TRIAL;
   color: var(--primary-color);
   background-color: var(--body-color);
+  overflow-x: hidden;
 }
 
 a {

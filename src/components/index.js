@@ -19,3 +19,6 @@ export * from "./bookshelf-hero/bookshelf-hero.component";
 export * from "./bookshelf-books/bookshelft-books.component";
 export * from "./bookshelf-books/bookshelf-books-list/bookshelf-books-list.component";
 export * from "./bookshelf-books/bookshelf-books-card/bookshelf-books-card.component";
+export * from "./case-study-hero/case-study-hero.component";
+export * from "./experience-preview/experience-preview.component";
+export * from "./experience-preview/experience-preview-card/experience-preview-card.component";

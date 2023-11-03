@@ -7,6 +7,7 @@ import { Container } from "../../assets/styles/common.styles";
 
 export const NavbarWrapper = styled.nav`
   height: 128px;
+  background-color: ${({ $color }) => $color || "transparent"};
 `;
 
 export const NavbarContainer = styled(Container)`
