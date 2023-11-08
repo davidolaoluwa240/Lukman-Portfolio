@@ -22,3 +22,5 @@ export const SecondaryHeading = styled.h2`
   font-family: inherit;
   line-height: inherit;
 `;
+
+export const CaseStudyDetail = styled.main``;
