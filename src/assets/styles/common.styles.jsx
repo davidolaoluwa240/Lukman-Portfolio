@@ -23,4 +23,60 @@ export const SecondaryHeading = styled.h2`
   line-height: inherit;
 `;
 
-export const CaseStudyDetail = styled.main``;
+export const CaseStudyDetail = styled.main`
+  margin-top: 9.6rem;
+
+  section:not(:last-child),
+  .bg-research__content {
+    margin-bottom: 4rem;
+  }
+
+  h2 {
+    font-feature-settings: "clig" off, "liga" off;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 40.8px;
+    margin-bottom: 0.5rem;
+  }
+
+  p,
+  .list-item-title,
+  li {
+    color: rgba(33, 33, 33, 0.7);
+    font: 300 1.8rem/170% Studio Feixen Sans TRIAL, serif;
+    font-feature-settings: "clig" off, "liga" off;
+  }
+
+  .bg-collaborators__name {
+    color: var(--primary-color);
+    font-weight: 600;
+  }
+
+  ul {
+    list-style-type: initial;
+  }
+
+  ol {
+    list-style-type: decimal;
+  }
+
+  .ml-sm {
+    margin-left: 0.7rem;
+  }
+
+  .ml-md {
+    margin-left: 2.4rem;
+  }
+
+  .mb-sm {
+    margin-bottom: 0.7rem;
+  }
+
+  .mb-md {
+    margin-bottom: 2.4rem;
+  }
+
+  .mt-xl {
+    margin-top: 9.6rem;
+  }
+`;

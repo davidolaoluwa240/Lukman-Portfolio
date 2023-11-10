@@ -22,3 +22,4 @@ export * from "./bookshelf-books/bookshelf-books-card/bookshelf-books-card.compo
 export * from "./case-study-hero/case-study-hero.component";
 export * from "./experience-preview/experience-preview.component";
 export * from "./experience-preview/experience-preview-card/experience-preview-card.component";
+export * from "./quote-box/quote-box.component";
