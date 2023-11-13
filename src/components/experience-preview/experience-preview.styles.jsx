@@ -6,6 +6,8 @@ import { ExperiencePreviewCardWrapper } from "./experience-preview-card/experien
 
 export const ExperiencePreviewWrapper = styled.div`
   margin-top: -3%;
+  z-index: 3;
+  position: relative;
   display: flex;
   justify-content: center;
 
@@ -16,7 +18,7 @@ export const ExperiencePreviewWrapper = styled.div`
 
 export const ExperiencePreviewGroup = styled.div`
   display: inline-flex;
-  min-width: 60%;
+  min-width: 70%;
   justify-content: space-between;
   align-items: center;
   background: var(--white-color);

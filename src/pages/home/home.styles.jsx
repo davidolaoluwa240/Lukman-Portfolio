@@ -1,7 +1,7 @@
 // Modules
 import styled from "styled-components";
 
-// Images
+// Components
 import heroLinesSvg from "../../assets/images/hero-lines.svg";
 
 export const HomeWrapper = styled.main`

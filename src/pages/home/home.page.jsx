@@ -4,7 +4,7 @@ import React from "react";
 // Components
 import {
   HomeHero,
-  CaseStudiesCardBase,
+  CaseStudyCardBase,
   SideProjectsBase,
 } from "../../components";
 
@@ -15,7 +15,7 @@ export const Home = () => {
   return (
     <HomeWrapper>
       <HomeHero />
-      <CaseStudiesCardBase />
+      <CaseStudyCardBase />
       <SideProjectsBase />
     </HomeWrapper>
   );

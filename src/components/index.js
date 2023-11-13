@@ -1,9 +1,9 @@
 // Re-Export Components
 export * from "./navbar/navbar.component";
 export * from "./home-hero/home-hero.component";
-export * from "./case-studies-card-base/case-studies-card-base.component";
-export * from "./case-studies-card-base/case-studies-card-list/case-studies-card-list.component";
-export * from "./case-studies-card-base/case-studies-card/case-studies-card.component";
+export * from "./case-study-card-base/case-study-card-base.component";
+export * from "./case-study-card-base/case-study-card-list/case-study-card-list.component";
+export * from "./case-study-card-base/case-study-card/case-study-card.component";
 export * from "./side-projects-base/side-projects-base.component";
 export * from "./side-projects-base/side-projects-list/side-projects-list.component";
 export * from "./side-projects-base/side-projects-card/side-projects-card.component";
@@ -19,7 +19,8 @@ export * from "./bookshelf-hero/bookshelf-hero.component";
 export * from "./bookshelf-books/bookshelft-books.component";
 export * from "./bookshelf-books/bookshelf-books-list/bookshelf-books-list.component";
 export * from "./bookshelf-books/bookshelf-books-card/bookshelf-books-card.component";
-export * from "./case-study-hero/case-study-hero.component";
+export * from "./case-study-detail-hero/case-study-detail-hero.component";
 export * from "./experience-preview/experience-preview.component";
 export * from "./experience-preview/experience-preview-card/experience-preview-card.component";
 export * from "./quote-box/quote-box.component";
+export * from "./case-study-detail-footer/case-study-detail-footer.component";

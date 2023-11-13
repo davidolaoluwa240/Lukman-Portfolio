@@ -6,19 +6,26 @@ import { useStaticData } from "../../../hooks";
 
 // Components
 import { Fragment } from "react";
-import { CaseStudyHero, QuoteBox } from "../../../components";
+import {
+  CaseStudyDetailHero,
+  CaseStudyDetailFooter,
+  QuoteBox,
+} from "../../../components";
 import {
   CaseStudyDetail,
   Container as CaseStudyDetailContainer,
 } from "../../../assets/styles/common.styles";
 
 export const BongaloCaseStudy = () => {
-  const { CASE_STUDIES_HERO_ITEMS: caseStudiesHeroItems } = useStaticData();
+  const {
+    CASE_STUDY_DETAIL_HERO_ITEMS: caseStudyDetailHeroItems,
+    CASE_STUDY_ITEMS: caseStudyItems,
+  } = useStaticData();
 
   return (
     <Fragment>
       <header>
-        <CaseStudyHero {...caseStudiesHeroItems.bongalo} />
+        <CaseStudyDetailHero {...caseStudyDetailHeroItems.bongalo} />
       </header>
 
       <CaseStudyDetail>
@@ -49,21 +56,55 @@ export const BongaloCaseStudy = () => {
         <CaseStudyDetailContainer as="section">
           <h2>Collaborators</h2>
           <p>
-            <b className="bg-collaborators__name">Jr Nosouh Tonteh</b> Product
-            Manager, <b className="bg-collaborators__name">Nsikan Etukudoh </b>
+            <a
+              className="is-extra-md is-color-primary"
+              href="https://www.linkedin.com/in/jr-nosouh-tonteh-4052871ba/"
+              target="_blank"
+            >
+              Jr Nosouh Tonteh
+            </a>{" "}
+            Product Manager,{" "}
+            <a
+              href="https://www.linkedin.com/in/nsikan-etukudoh-244483149/"
+              className="is-extra-md is-color-primary"
+              target="_blank"
+            >
+              Nsikan Etukudoh{" "}
+            </a>
             Product designer,
-            <b className="bg-collaborators__name"> David Atebisun</b> Frontend
-            engineer,
-            <b className="bg-collaborators__name"> Nelson Bassey</b> Lead
-            engineer,
-            <b className="bg-collaborators__name"> Minuifuong Nghombombong </b>
+            <a
+              href="https://www.linkedin.com/in/david-atebisun-4ab786171/"
+              className="is-extra-md is-color-primary"
+              target="_blank"
+            >
+              {" "}
+              David Atebisun
+            </a>{" "}
+            Frontend engineer,
+            <a
+              href="https://www.linkedin.com/in/nbassey?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABvrSGABGGPhSyHXYGWCbNdQeqE3LdZ-_sA"
+              className="is-extra-md is-color-primary"
+              target="_blank"
+            >
+              {" "}
+              Nelson Bassey
+            </a>{" "}
+            Lead engineer,
+            <a
+              href="https://www.linkedin.com/in/epaphrate-minuifoung?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABYbE28BlyRs7sOj2XPL42bcgdevjU6cjA8"
+              className="is-extra-md is-color-primary"
+              target="_blank"
+            >
+              {" "}
+              Minuifuong Nghombombong{" "}
+            </a>
             CEO
           </p>
         </CaseStudyDetailContainer>
 
         <CaseStudyDetailContainer as="section">
           <h2>Research</h2>
-          <p className="bg-research__content">
+          <p className="mb-l">
             This initial phase was about more than just understanding the
             current state of affairs; it was about building empathy with our
             users and forging a foundation upon which we could construct a
@@ -72,7 +113,7 @@ export const BongaloCaseStudy = () => {
             points and enhancing the journey for hosts and guests alike.
           </p>
 
-          <p className="bg-research__content">
+          <p className="mb-l">
             Our research methodology was rooted in a comprehensive and iterative
             approach that combined qualitative and quantitative methods. We
             aimed to gather insights from both hosts and guests, ensuring a
@@ -81,7 +122,7 @@ export const BongaloCaseStudy = () => {
           </p>
 
           <ol>
-            <li className="is-extra-bold list-item-title">
+            <li className="is-extra-bold">
               User Surveys:
               <ul>
                 <li className="ml-sm mb-sm">
@@ -94,7 +135,7 @@ export const BongaloCaseStudy = () => {
               </ul>
             </li>
 
-            <li className="is-extra-bold list-item-title">
+            <li className="is-extra-bold">
               User Interviews:
               <ul>
                 <li className="ml-sm mb-sm">
@@ -107,7 +148,7 @@ export const BongaloCaseStudy = () => {
               </ul>
             </li>
 
-            <li className="is-extra-bold list-item-title">
+            <li className="is-extra-bold">
               Usability Testing:
               <ul>
                 <li className="ml-sm">
@@ -184,43 +225,43 @@ export const BongaloCaseStudy = () => {
 
           <ul>
             <li className="ml-md mb-sm">
-              <strong>Step-by-Step Guidance:</strong> The wizard method broke
-              down the listing process into manageable steps, providing hosts
-              with clear guidance.
+              <span>Step-by-Step Guidance:</span> The wizard method broke down
+              the listing process into manageable steps, providing hosts with
+              clear guidance.
             </li>
 
             <li className="ml-md mb-sm">
-              <strong>Progress Visualization:</strong>A progress bar displayed
+              <span>Progress Visualization:</span>A progress bar displayed
               real-time progress, helping hosts track their advancement through
               the listing process.
             </li>
 
             <li className="ml-md mb-sm">
-              <strong>Intuitive Flow:</strong> The flow was logically sequenced,
+              <span>Intuitive Flow:</span> The flow was logically sequenced,
               starting with basic property details and progressing to specific
               information and photos.
             </li>
 
             <li className="ml-md mb-sm">
-              <strong>Interactive Assistance:</strong>Interactive tooltips and
+              <span>Interactive Assistance:</span>Interactive tooltips and
               information icons offered instant context and helpful tips,
               reducing the need for external guidance.
             </li>
 
             <li className="ml-md mb-sm">
-              <strong>In-Line Validation:</strong>
+              <span>In-Line Validation:</span>
               Real-time validation minimized errors, enabling hosts to correct
               issues on the spot.
             </li>
 
             <li className="ml-md mb-sm">
-              <strong> Preview at Every Step:</strong> Hosts could preview their
+              <span> Preview at Every Step:</span> Hosts could preview their
               listing at each stage, visualizing how it would appear to
               potential guests.
             </li>
 
             <li className="ml-md">
-              <strong>Mobile Responsiveness:</strong>
+              <span>Mobile Responsiveness:</span>
               The wizard method was fully responsive for an efficient experience
               on mobile devices.
             </li>
@@ -241,9 +282,7 @@ export const BongaloCaseStudy = () => {
           </p>
           <ul>
             <li className="mb-sm ml-md">
-              <strong className="is-extra-bold">
-                Bounce Rate Improvement:
-              </strong>{" "}
+              <span className="is-extra-bold">Bounce Rate Improvement:</span>{" "}
               Bounce rates decreased significantly from
               <span className="is-danger is-extra-bold"> 58%</span> to
               <span className="is-success is-extra-bold is-text-md">
@@ -255,7 +294,7 @@ export const BongaloCaseStudy = () => {
             </li>
 
             <li className="mb-sm ml-md">
-              <strong className="is-extra-bold">Conversion Rate Boost:</strong>{" "}
+              <span className="is-extra-bold">Conversion Rate Boost:</span>{" "}
               Booking and listing conversion rates saw substantial increases,
               rising from <span className="is-danger is-extra-bold">12%</span>{" "}
               to{" "}
@@ -265,9 +304,7 @@ export const BongaloCaseStudy = () => {
               respectively.
             </li>
             <li className="mb-sm ml-md">
-              <strong className="is-extra-bold">
-                Increased User Engagement:
-              </strong>{" "}
+              <span className="is-extra-bold">Increased User Engagement:</span>{" "}
               The average session duration increased by
               <span className="is-success is-extra-bold is-text-md">
                 {" "}
@@ -277,25 +314,23 @@ export const BongaloCaseStudy = () => {
               interaction.
             </li>
             <li className="mb-sm ml-md">
-              <strong className="is-extra-bold">
-                Elevated User Satisfaction:
-              </strong>{" "}
+              <span className="is-extra-bold">Elevated User Satisfaction:</span>{" "}
               User satisfaction ratings surged from
               <span className="is-danger is-extra-bold"> 3.8</span> to{" "}
               <span className="is-success is-extra-bold is-text-md">4.6</span>{" "}
               (on a scale of 1-5) after the redesign.
             </li>
             <li className="mb-sm ml-md">
-              <strong className="is-extra-bold">Mobile Traffic Growth:</strong>{" "}
+              <span className="is-extra-bold">Mobile Traffic Growth:</span>{" "}
               Mobile traffic increased by{" "}
               <span className="is-success is-extra-bold is-text-md">35%</span>{" "}
               post-redesign, demonstrating a more responsive and user-friendly
               mobile experience.
             </li>
             <li className="mb-md ml-md">
-              <strong className="is-extra-bold">
+              <span className="is-extra-bold">
                 Listing Process Enhancement:
-              </strong>{" "}
+              </span>{" "}
               Host listings increased by{" "}
               <span className="is-success is-extra-bold is-text-md">50%</span>{" "}
               after redesign, indicating greater clarity and ease in the listing
@@ -323,6 +358,8 @@ export const BongaloCaseStudy = () => {
           citeRole="Product Manager @Bongalo"
         />
       </CaseStudyDetail>
+
+      <CaseStudyDetailFooter item={caseStudyItems[1].cards[0]} />
     </Fragment>
   );
 };

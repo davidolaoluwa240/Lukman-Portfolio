@@ -61,8 +61,8 @@ import TheEssentialsOfInteractionDesign from "../assets/images/the-essentials-of
 // ===============================================================================
 // ===============================================================================
 
-// Case Studies Items
-export const CASE_STUDIES_ITEMS = [
+// Case Study Items
+export const CASE_STUDY_ITEMS = [
   {
     id: 1,
     cards: [
@@ -70,17 +70,17 @@ export const CASE_STUDIES_ITEMS = [
         id: "bongalo",
         title: "Catalyzing Success: A Redesign of Bongalo Platform",
         role: "Product design, Prototyping",
-        imageComponent: CaseStudyCardBongalo,
+        img: CaseStudyCardBongalo,
         bgColor: "#D5EBFD",
-        to: "/case-studies",
+        to: "/case-study",
       },
       {
         id: "asusu",
         title: "Digital Banking for Credit Unions",
         role: "Product design, Prototyping",
-        imageComponent: CaseStudyCardAsusu,
+        img: CaseStudyCardAsusu,
         bgColor: "#A6CAFF",
-        to: "/case-studies",
+        to: "/case-study",
       },
     ],
   },
@@ -93,32 +93,32 @@ export const CASE_STUDIES_ITEMS = [
         title:
           "Revamping Onboarding: A User-Centric UX Approach to Elevate the First User Experience",
         role: "UX design, Research & Workshop",
-        imageComponent: CaseStudyCardFreterium,
+        img: CaseStudyCardFreterium,
         bgColor: "#CDF1FF",
-        to: "/case-studies",
+        to: "/case-study",
       },
       {
         id: "swimmo",
         title:
           "Diving into Fitness: Strategies for Swimming Consistency and Success",
         role: "Product design, Prototyping",
-        imageComponent: CaseStudyCardSwimmo,
+        img: CaseStudyCardSwimmo,
         bgColor: "#C5D0FF",
-        to: "/case-studies",
+        to: "/case-study",
       },
     ],
   },
 ];
 
-// Case Studies Hero Items
-export const CASE_STUDIES_HERO_ITEMS = {
+// Case Study Detail Hero Items
+export const CASE_STUDY_DETAIL_HERO_ITEMS = {
   bongalo: {
     title: "Redesigning digital marketplace for African travel accommodation",
     expertise: "Product design,  UX",
     platforms: "Responsive Web App",
     role: "Design lead",
     year: "2021—2022",
-    imageComponent: CaseStudyHeroBongalo,
+    img: CaseStudyHeroBongalo,
     to: "https://www.bongalo.com",
   },
   freterium: {
@@ -127,7 +127,7 @@ export const CASE_STUDIES_HERO_ITEMS = {
     expertise: "UX design, Research & Workshop",
     platforms: "Responsive Web App",
     role: "Senior UX Designer",
-    imageComponent: CaseStudyHeroAsusu,
+    img: CaseStudyHeroAsusu,
     year: "2022—2023",
     to: "https://www.freterium.com/",
   },
@@ -136,7 +136,7 @@ export const CASE_STUDIES_HERO_ITEMS = {
     expertise: "Product design ,Research & Sales",
     platforms: "Responsive Web App",
     role: "Product Designer",
-    imageComponent: CaseStudyHeroFreterium,
+    img: CaseStudyHeroFreterium,
     year: "2019",
     to: "https://tryasusu.com/home",
   },
@@ -146,7 +146,7 @@ export const CASE_STUDIES_HERO_ITEMS = {
     expertise: "Product design",
     platforms: "Mobile app and wearable",
     role: "Product Designer",
-    imageComponent: CaseStudyHeroSwimmo,
+    img: CaseStudyHeroSwimmo,
     year: "2022",
     to: "https://www.swimmo.com/",
   },

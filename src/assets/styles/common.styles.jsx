@@ -26,7 +26,7 @@ export const SecondaryHeading = styled.h2`
 export const CaseStudyDetail = styled.main`
   margin-top: 9.6rem;
 
-  section:not(:last-child),
+  section:not(:last-of-type),
   .bg-research__content {
     margin-bottom: 4rem;
   }
@@ -40,16 +40,10 @@ export const CaseStudyDetail = styled.main`
   }
 
   p,
-  .list-item-title,
   li {
     color: rgba(33, 33, 33, 0.7);
     font: 300 1.8rem/170% Studio Feixen Sans TRIAL, serif;
     font-feature-settings: "clig" off, "liga" off;
-  }
-
-  .bg-collaborators__name {
-    color: var(--primary-color);
-    font-weight: 600;
   }
 
   ul {
@@ -74,6 +68,10 @@ export const CaseStudyDetail = styled.main`
 
   .mb-md {
     margin-bottom: 2.4rem;
+  }
+
+  .mb-l {
+    margin-bottom: 4rem;
   }
 
   .mt-xl {

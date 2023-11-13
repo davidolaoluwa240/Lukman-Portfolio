@@ -120,8 +120,12 @@ blockquote {
   text-transform: lowercase;
 }
 
+.is-extra-md {
+  font-weight: 600 !important;
+}
+
 .is-bold {
-  font-weight: 700;
+  font-weight: 700 !important;
 }
 
 .is-extra-bold {
@@ -130,4 +134,20 @@ blockquote {
 
 .is-text-md {
   font-size: 2rem;
+}
+
+.is-italic {
+  font-style: italic !important;
+}
+
+.list-marker-primary {
+  &::marker {
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 800;
+  }
+}
+
+.is-color-primary {
+  color: var(--primary-color) !important;
 }

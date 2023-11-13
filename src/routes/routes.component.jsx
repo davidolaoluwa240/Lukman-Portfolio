@@ -16,7 +16,7 @@ import {
 } from "../pages";
 
 // Layouts
-import { DefaultLayout, CaseStudiesLayout } from "../layouts";
+import { DefaultLayout, CaseStudyLayout } from "../layouts";
 
 export const Routes = () => {
   return (
@@ -26,7 +26,7 @@ export const Routes = () => {
         <Route path="about" element={<About />} />
         <Route path="bookshelf" element={<Bookshelf />} />
       </Route>
-      <Route path="/case-studies" element={<CaseStudiesLayout />}>
+      <Route path="/case-study" element={<CaseStudyLayout />}>
         <Route path="bongalo" element={<BongaloCaseStudy />} />
         <Route path="asusu" element={<AsusuCaseStudy />} />
         <Route path="freterium" element={<FreteriumCaseStudy />} />
