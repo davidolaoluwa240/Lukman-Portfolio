@@ -468,7 +468,7 @@ export const FreteriumCaseStudy = () => {
         </CaseStudyDetailContainer>
 
         <QuoteBox
-          className="mt-xl"
+          className="mt-xl is-bg-accent-100"
           quote="From every UX and UI feature we've presented to him, he has masterfully translated our vision into stunning, user-friendly designs. Our clients consistently rave about the captivating aesthetics and intuitive functionality of our Optimization page. His remarkable talent as a UI and UX designer has transformed our product vision into a tangible reality, leaving us in awe of his remarkable skills.”"
           citeName="Réda MANSOURI"
           citeRole="Head of product @Freterium"

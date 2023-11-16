@@ -66,6 +66,8 @@
   --gray-100: #f1f2f3;
   --danger-color: #f00;
   --heading-underline-color: #ccf0fe;
+  --accent-100: #cceffd;
+  --accent-200: #a4c7fb;
   --dark-gray: #1d1e21;
   --white-color: #ffffff;
 }
@@ -154,10 +156,6 @@ blockquote {
   font-style: italic !important;
 }
 
-.is-color-primary {
-  color: var(--primary-color) !important;
-}
-
 .list-style-none {
   list-style-type: none !important;
 }
@@ -168,4 +166,17 @@ blockquote {
 
 .is-text-center {
   text-align: center;
+}
+
+/* COLOR */
+.is-color-primary {
+  color: var(--primary-color) !important;
+}
+
+.is-bg-accent-100 {
+  background: var(--accent-100) !important;
+}
+
+.is-bg-accent-200 {
+  background: var(--accent-200) !important;
 }
