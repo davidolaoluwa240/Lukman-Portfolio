@@ -63,7 +63,9 @@
   --secondary-color: #d7edff;
   --body-color: #f9f9f9;
   --success-color: #008000;
+  --gray-100: #f1f2f3;
   --danger-color: #f00;
+  --heading-underline-color: #ccf0fe;
   --dark-gray: #1d1e21;
   --white-color: #ffffff;
 }
@@ -108,20 +110,28 @@ blockquote {
   margin-left: 0;
 }
 
+.is-block {
+  display: block !important;
+}
+
 .is-danger {
-  color: var(--danger-color);
+  color: var(--danger-color) !important;
 }
 
 .is-success {
-  color: var(--success-color);
+  color: var(--success-color) !important;
 }
 
 .is-lower {
-  text-transform: lowercase;
+  text-transform: lowercase !important;
 }
 
 .is-extra-md {
   font-weight: 600 !important;
+}
+
+.is-regular {
+  font-weight: 400 !important;
 }
 
 .is-bold {
@@ -132,22 +142,30 @@ blockquote {
   font-weight: 800 !important;
 }
 
+.is-text-sm {
+  font-size: 16px !important;
+}
+
 .is-text-md {
-  font-size: 2rem;
+  font-size: 2rem !important;
 }
 
 .is-italic {
   font-style: italic !important;
 }
 
-.list-marker-primary {
-  &::marker {
-    color: var(--primary-color);
-    font-size: 2rem;
-    font-weight: 800;
-  }
-}
-
 .is-color-primary {
   color: var(--primary-color) !important;
+}
+
+.list-style-none {
+  list-style-type: none !important;
+}
+
+.is-underline {
+  text-decoration: underline !important;
+}
+
+.is-text-center {
+  text-align: center;
 }

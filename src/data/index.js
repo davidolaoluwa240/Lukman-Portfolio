@@ -114,7 +114,7 @@ export const CASE_STUDY_ITEMS = [
 export const CASE_STUDY_DETAIL_HERO_ITEMS = {
   bongalo: {
     title: "Redesigning digital marketplace for African travel accommodation",
-    expertise: "Product design,  UX",
+    expertise: "Product design, UX",
     platforms: "Responsive Web App",
     role: "Design lead",
     year: "2021—2022",
@@ -124,7 +124,7 @@ export const CASE_STUDY_DETAIL_HERO_ITEMS = {
   freterium: {
     title:
       "Revamping Onboarding: A User-Centric UX Approach to Elevate the First User Experience",
-    expertise: "UX design, Research & Workshop",
+    expertise: "UX design, Research & Workshop",
     platforms: "Responsive Web App",
     role: "Senior UX Designer",
     img: CaseStudyHeroFreterium,
@@ -133,7 +133,7 @@ export const CASE_STUDY_DETAIL_HERO_ITEMS = {
   },
   asusu: {
     title: "Digital Banking for Credit Unions",
-    expertise: "Product design ,Research & Sales",
+    expertise: "Product design, Research & Sales",
     platforms: "Responsive Web App",
     role: "Product Designer",
     img: CaseStudyHeroAsusu,
