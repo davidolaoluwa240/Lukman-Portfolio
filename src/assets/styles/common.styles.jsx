@@ -30,7 +30,8 @@ export const CaseStudyDetail = styled.main`
     margin-bottom: 4rem;
   }
 
-  h2 {
+  h2,
+  .case-study-detail-subheading {
     font-feature-settings: "clig" off, "liga" off;
     font-size: 2.4rem;
     font-weight: 700;
@@ -40,7 +41,9 @@ export const CaseStudyDetail = styled.main`
 
   p,
   li,
-  h3 {
+  h3,
+  h4,
+  h5 {
     color: rgba(33, 33, 33, 0.7);
     font: 300 1.8rem/170% Studio Feixen Sans TRIAL, serif;
     font-feature-settings: "clig" off, "liga" off;
@@ -60,6 +63,10 @@ export const CaseStudyDetail = styled.main`
 
   .ml-md {
     margin-left: 2.4rem;
+  }
+
+  .ml-l {
+    margin-left: 4rem;
   }
 
   .mb-sm {
@@ -130,4 +137,14 @@ export const CaseStudyDetail = styled.main`
     left: -13px;
     z-index: 2;
   }
+`;
+
+export const UserPersonasList = styled(Container)`
+  max-width: 1414px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+`;
+
+export const UserPersonasCard = styled.div`
+  padding: 2.4rem;
 `;

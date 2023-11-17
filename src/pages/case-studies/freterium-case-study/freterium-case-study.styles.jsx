@@ -1,9 +1,18 @@
 // Modules
 import styled from "styled-components";
 
+// Images
+import heroLinesSvg from "../../../assets/images/hero-lines.svg";
+
 export const FreteriumUserFlowChartWrapper = styled.section`
-  background: var(--gray-100);
+  background-color: var(--gray-100);
   padding: 3.7rem 0;
+  background-image: url(${heroLinesSvg});
+  background-repeat: no-repeat;
+
+  svg {
+    box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+  }
 `;
 
 export const FreteriumParticipantGroup = styled.div`
