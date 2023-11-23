@@ -266,14 +266,16 @@ export const AsusuCaseStudy = () => {
               </h3>
               <h4 className="is-extra-bold">Background:</h4>
               <ul className="ml-md">
-                <li className="is-text-sm">Name: David Turner</li>
-                <li className="is-text-sm">Age: 42</li>
-                <li className="is-text-sm">Role: Credit Union Manager</li>
-                <li className="is-text-sm">
+                <li className="is-text-sm is-regular">Name: David Turner</li>
+                <li className="is-text-sm is-regular">Age: 42</li>
+                <li className="is-text-sm is-regular">
+                  Role: Credit Union Manager
+                </li>
+                <li className="is-text-sm is-regular">
                   Experience: Over 10 years in the banking industry, including 5
                   years managing a Credit Union.
                 </li>
-                <li className="is-text-sm">
+                <li className="is-text-sm is-regular">
                   Challenges: Struggling with outdated systems, facing increased
                   competition, and the need to improve operational efficiency.
                 </li>
@@ -284,25 +286,29 @@ export const AsusuCaseStudy = () => {
               </h5>
 
               <ul className="ml-md">
-                <li className="is-text-sm">
+                <li className="is-text-sm is-regular">
                   Modernize Credit Union operations.
                 </li>
-                <li className="is-text-sm">Enhance member services.</li>
-                <li className="is-text-sm">
+                <li className="is-text-sm is-regular">
+                  Enhance member services.
+                </li>
+                <li className="is-text-sm is-regular">
                   Implement technology-driven solutions.
                 </li>
-                <li className="is-text-sm">
+                <li className="is-text-sm is-regular">
                   Ensure the security of member data.
                 </li>
               </ul>
 
               <h5 className="is-extra-bold is-text-sm">Pain Points:</h5>
               <ul className="ml-md">
-                <li className="is-text-sm">Frustration with legacy systems.</li>
-                <li className="is-text-sm">
+                <li className="is-text-sm is-regular">
+                  Frustration with legacy systems.
+                </li>
+                <li className="is-text-sm is-regular">
                   Fear of falling behind in the digital era.
                 </li>
-                <li className="is-text-sm">
+                <li className="is-text-sm is-regular">
                   Pressure to maintain trust while modernizing.
                 </li>
               </ul>
@@ -314,16 +320,16 @@ export const AsusuCaseStudy = () => {
               </h3>
               <h4 className="is-extra-bold is-color-primary">Background:</h4>
               <ul className="ml-md">
-                <li className="is-text-sm">Name: Sarah Rodriguez</li>
-                <li className="is-text-sm">Age: 28</li>
-                <li className="is-text-sm">
+                <li className="is-text-sm is-regular">Name: Sarah Rodriguez</li>
+                <li className="is-text-sm is-regular">Age: 28</li>
+                <li className="is-text-sm is-regular">
                   Role: Member Services Representative
                 </li>
-                <li className="is-text-sm">
+                <li className="is-text-sm is-regular">
                   Experience: 5 years in a Credit Union, responsible for
                   processing member transactions and inquiries.
                 </li>
-                <li className="is-text-sm">
+                <li className="is-text-sm is-regular">
                   Challenges: Burdened by manual paperwork, long queues, and a
                   desire for greater efficiency.
                 </li>
@@ -333,23 +339,29 @@ export const AsusuCaseStudy = () => {
                 Goals and Aspirations:
               </h5>
               <ul className="ml-md">
-                <li className="is-text-sm">
+                <li className="is-text-sm is-regular">
                   Provide exceptional member service.
                 </li>
-                <li className="is-text-sm">Streamline daily tasks.</li>
-                <li className="is-text-sm">Reduce errors in transactions.</li>
-                <li className="is-text-sm">Improve work-life balance.</li>
+                <li className="is-text-sm is-regular">
+                  Streamline daily tasks.
+                </li>
+                <li className="is-text-sm is-regular">
+                  Reduce errors in transactions.
+                </li>
+                <li className="is-text-sm is-regular">
+                  Improve work-life balance.
+                </li>
               </ul>
 
               <h5 className="is-color-primary is-extra-bold">Pain Points:</h5>
               <ul className="ml-md">
-                <li className="is-text-sm">
+                <li className="is-text-sm is-regular">
                   Overwhelmed by paperwork and repetitive tasks.
                 </li>
-                <li className="is-text-sm">
+                <li className="is-text-sm is-regular">
                   Struggling with long queues and member dissatisfaction.
                 </li>
-                <li className="is-text-sm">
+                <li className="is-text-sm is-regular">
                   Eagerness to embrace technology to simplify work.
                 </li>
               </ul>
@@ -361,13 +373,15 @@ export const AsusuCaseStudy = () => {
               </h3>
               <h4 className="is-extra-bold is-color-primary">Background:</h4>
               <ul className="ml-md">
-                <li className="is-text-sm">Name: Emily Baker</li>
-                <li className="is-text-sm">Age: 35</li>
-                <li className="is-text-sm">Occupation: School Teacher</li>
-                <li className="is-text-sm">
+                <li className="is-text-sm is-regular">Name: Emily Baker</li>
+                <li className="is-text-sm is-regular">Age: 35</li>
+                <li className="is-text-sm is-regular">
+                  Occupation: School Teacher
+                </li>
+                <li className="is-text-sm is-regular">
                   Experience: A member of her local Credit Union for 7 years.
                 </li>
-                <li className="is-text-sm">
+                <li className="is-text-sm is-regular">
                   Challenges: Frustrated with long wait times, limited access to
                   services, and the need for modern banking solutions.
                 </li>
@@ -376,14 +390,16 @@ export const AsusuCaseStudy = () => {
               <h5 className="is-extra-bold">Goals and Aspirations:</h5>
 
               <ul className="ml-md">
-                <li className="is-text-sm">Efficiently manage her finances.</li>
-                <li className="is-text-sm">
+                <li className="is-text-sm is-regular">
+                  Efficiently manage her finances.
+                </li>
+                <li className="is-text-sm is-regular">
                   Minimize time spent on banking transactions.
                 </li>
-                <li className="is-text-sm">
+                <li className="is-text-sm is-regular">
                   Have access to advanced banking features.
                 </li>
-                <li className="is-text-sm">
+                <li className="is-text-sm is-regular">
                   Trust in the cooperative values of her Credit Union.
                 </li>
               </ul>
@@ -391,9 +407,13 @@ export const AsusuCaseStudy = () => {
               <h5 className="is-extra-bold">Pain Points:</h5>
 
               <ul className="ml-md">
-                <li>Time-consuming visits to the Credit Union branch.</li>
-                <li>Limited access to digital banking services.</li>
-                <li>
+                <li className="is-text-sm is-regular">
+                  Time-consuming visits to the Credit Union branch.
+                </li>
+                <li className="is-text-sm is-regular">
+                  Limited access to digital banking services.
+                </li>
+                <li className="is-text-sm is-regular">
                   Desire for a convenient and user-friendly mobile banking
                   experience.
                 </li>

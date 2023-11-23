@@ -97,6 +97,14 @@ export const CaseStudyDetail = styled.main`
     margin-top: 9.6rem;
   }
 
+  .pt-md {
+    padding-top: 2.4rem;
+  }
+
+  .pb-md {
+    padding-bottom: 2.4rem;
+  }
+
   .list-marker-primary {
     &::marker {
       color: var(--primary-color);
@@ -141,6 +149,7 @@ export const CaseStudyDetail = styled.main`
 
 export const UserPersonasList = styled(Container)`
   max-width: 1414px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 `;

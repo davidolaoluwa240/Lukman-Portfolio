@@ -69,6 +69,7 @@
   --accent-100: #cceffd;
   --accent-200: #a4c7fb;
   --accent-300: #f5f9fe;
+  --accent-400: #f8f9ff;
   --dark-gray: #1d1e21;
   --white-color: #ffffff;
 }
@@ -150,11 +151,11 @@ blockquote {
 }
 
 .is-text-xsm {
-  font-size: 14px !important;
+  font-size: 1.4rem !important;
 }
 
 .is-text-sm {
-  font-size: 16px !important;
+  font-size: 1.6rem !important;
 }
 
 .is-text-md {
@@ -210,6 +211,10 @@ blockquote {
 
 .is-bg-accent-300 {
   background: var(--accent-300) !important;
+}
+
+.is-bg-accent-400 {
+  background: var(--accent-400) !important;
 }
 
 .is-bg-body-color {
