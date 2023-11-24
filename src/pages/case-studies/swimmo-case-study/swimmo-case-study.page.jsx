@@ -201,9 +201,8 @@ export const SwimmoCaseStudy = () => {
               </ul>
             </UserPersonasCard>
             <UserPersonasCard className="is-bg-accent-400">
-              Janet,
               <h3 className="case-study-detail-subheading is-font-primary">
-                <span className="is-text-md">25Years old</span>
+                Janet, <span className="is-text-md">25Years old</span>
               </h3>
               <h4 className="is-extra-bold">Background:</h4>
               <ul className="ml-md">
