@@ -61,9 +61,11 @@
 :root {
   --primary-color: #212121;
   --secondary-color: #d7edff;
+  --tertiary-color: #274ff5;
   --body-color: #f9f9f9;
   --success-color: #008000;
   --gray-100: #f1f2f3;
+  --gray-200: #eeeeee;
   --danger-color: #f00;
   --heading-underline-color: #ccf0fe;
   --accent-100: #cceffd;
@@ -111,7 +113,7 @@ p {
 }
 
 .is-font-primary {
-  font-family: Studio Feixen Edgy TRIAL, serif;
+  font-family: Studio Feixen Edgy TRIAL, serif !important;
 }
 
 blockquote {
@@ -162,6 +164,10 @@ blockquote {
   font-size: 2rem !important;
 }
 
+.is-text-xmd {
+  font-size: 2.4rem !important;
+}
+
 .is-italic {
   font-style: italic !important;
 }
@@ -182,10 +188,8 @@ blockquote {
   text-align: center;
 }
 
-.is-flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.x-center {
+  margin: 0 auto;
 }
 
 /* COLOR */
@@ -219,4 +223,15 @@ blockquote {
 
 .is-bg-body-color {
   background: var(--body-color) !important;
+}
+
+/* Display */
+.is-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.d-block {
+  display: block;
 }

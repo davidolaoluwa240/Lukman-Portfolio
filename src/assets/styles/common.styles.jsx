@@ -43,7 +43,8 @@ export const CaseStudyDetail = styled.main`
   li,
   h3,
   h4,
-  h5 {
+  h5,
+  small {
     color: rgba(33, 33, 33, 0.7);
     font: 300 1.8rem/170% Studio Feixen Sans TRIAL, serif;
     font-feature-settings: "clig" off, "liga" off;
@@ -82,7 +83,11 @@ export const CaseStudyDetail = styled.main`
   }
 
   .mb-xl {
-    margin-top: 9.6rem;
+    margin-bottom: 9.6rem;
+  }
+
+  .mt-sm {
+    margin-top: 0.7rem;
   }
 
   .mt-md {
@@ -99,6 +104,10 @@ export const CaseStudyDetail = styled.main`
 
   .pt-md {
     padding-top: 2.4rem;
+  }
+
+  .pt-l {
+    padding-top: 4rem;
   }
 
   .pb-md {
@@ -144,6 +153,17 @@ export const CaseStudyDetail = styled.main`
     height: 100%;
     left: -13px;
     z-index: 2;
+  }
+
+  .case-study-note-box {
+    background: var(--white-color);
+    padding: 0.8rem;
+    color: rgba(33, 33, 33, 0.7);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Studio Feixen Sans TRIAL;
+    font-size: 1.2rem;
+    font-weight: 800;
+    line-height: 170%;
   }
 `;
 

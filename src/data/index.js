@@ -414,6 +414,7 @@ export const BOOKSHELF_BOOKS_ITEMS = [
   },
 ];
 
+// Design Process Items
 export const DESIGN_PROCESS_ITEMS = [
   {
     id: 1,

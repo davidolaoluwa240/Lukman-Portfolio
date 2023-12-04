@@ -6,6 +6,7 @@ import { useStaticData } from "../../../hooks";
 
 // Components
 import { Fragment } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import { MdAlarm } from "react-icons/md";
 import { AiFillCheckCircle, AiFillHeart } from "react-icons/ai";
 import { RiAlarmFill } from "react-icons/ri";
@@ -22,8 +23,28 @@ import FreteriumAffinityDiagram from "../../../assets/images/freterium-affinity-
 import FreteriumUserFlow from "../../../assets/images/freterium-user-flow.svg?react";
 import FreteriumParticipants from "../../../assets/images/freterium-participants.svg?react";
 import FreteriumAppcues from "../../../assets/images/freterium-appcues.svg?react";
+import FreteriumLogisticScreen1 from "../../../assets/images/freterium-logistic-screen1.svg?react";
+import FreteriumLogisticScreen2 from "../../../assets/images/freterium-logistic-screen2.svg?react";
+import FreteriumLogisticScreen3 from "../../../assets/images/freterium-logistic-screen3.svg?react";
+import FreteriumLogisticScreen4 from "../../../assets/images/freterium-logistic-screen4.svg?react";
+import FreteriumLogisticScreen5 from "../../../assets/images/freterium-logistic-screen5.svg?react";
+import FreteriumLogisticScreen6 from "../../../assets/images/freterium-logistic-screen6.svg?react";
+import FreteriumLogisticScreen7 from "../../../assets/images/freterium-logistic-screen7.svg?react";
+import FreteriumLogisticScreen8 from "../../../assets/images/freterium-logistic-screen8.svg?react";
+import FreteriumLogisticScreen9 from "../../../assets/images/freterium-logistic-screen9.svg?react";
+import FreteriumLogisticScreen10 from "../../../assets/images/freterium-logistic-screen10.svg?react";
+import FreteriumLogisticScreen11 from "../../../assets/images/freterium-logistic-screen11.svg?react";
+import FreteriumLogisticScreen12 from "../../../assets/images/freterium-logistic-screen12.svg?react";
+import FreteriumLogisticScreen13 from "../../../assets/images/freterium-logistic-screen13.svg?react";
+import FreteriumLogisticScreen14 from "../../../assets/images/freterium-logistic-screen14.svg?react";
+import FreteriumLogisticScreen15 from "../../../assets/images/freterium-logistic-screen15.svg?react";
+import FreteriumLogisticScreen16 from "../../../assets/images/freterium-logistic-screen16.svg?react";
+import FreteriumLogisticScreen17 from "../../../assets/images/freterium-logistic-screen17.svg?react";
+import FreteriumLogisticScreen18 from "../../../assets/images/freterium-logistic-screen18.svg?react";
+import FreteriumLogisticScreen19 from "../../../assets/images/freterium-logistic-screen19.svg?react";
 
 // Styles
+import "swiper/css";
 import {
   FreteriumUserFlowChartWrapper,
   FreteriumParticipantGroup,
@@ -120,6 +141,7 @@ export const FreteriumCaseStudy = () => {
               className="is-extra-md is-color-primary"
               href="https://www.linkedin.com/in/r%C3%A9da-mansouri-26015691/"
               target="_blank"
+              rel="noreferrer"
             >
               Réda MANSOURI
             </a>{" "}
@@ -128,6 +150,7 @@ export const FreteriumCaseStudy = () => {
               className="is-extra-md is-color-primary"
               href="https://www.linkedin.com/in/redasakhi/"
               target="_blank"
+              rel="noreferrer"
             >
               Reda SAKHI
             </a>{" "}
@@ -136,6 +159,7 @@ export const FreteriumCaseStudy = () => {
               className="is-extra-md is-color-primary"
               href="https://www.linkedin.com/in/vicd129/"
               target="_blank"
+              rel="noreferrer"
             >
               Viktor Demydov
             </a>{" "}
@@ -144,6 +168,7 @@ export const FreteriumCaseStudy = () => {
               className="is-extra-md is-color-primary"
               href="https://www.linkedin.com/in/ghita-dassouli-077878152/"
               target="_blank"
+              rel="noreferrer"
             >
               Ghita Dassouli
             </a>{" "}
@@ -152,6 +177,7 @@ export const FreteriumCaseStudy = () => {
               className="is-extra-md is-color-primary"
               href="https://www.linkedin.com/in/almahdi-guedira-5b9b236b/"
               target="_blank"
+              rel="noreferrer"
             >
               Almahdi Guedira
             </a>{" "}
@@ -160,6 +186,7 @@ export const FreteriumCaseStudy = () => {
               className="is-extra-md is-color-primary"
               href="https://www.linkedin.com/in/dkourilov/"
               target="_blank"
+              rel="noreferrer"
             >
               Denis Kurilov
             </a>{" "}
@@ -310,6 +337,88 @@ export const FreteriumCaseStudy = () => {
           </p>
         </CaseStudyDetailContainer>
 
+        <FreteriumUserFlowChartWrapper
+          style={{ padding: "4rem 0 10rem", backgroundImage: "none" }}
+          className="mt-xl"
+        >
+          <CaseStudyDetailContainer
+            className="mb-md"
+            style={{ maxWidth: "796px" }}
+          >
+            <h2>
+              Take a look at the New experience of listing properties on Bongalo
+            </h2>
+            <span className="case-study-note-box">
+              NB: swipe right to view more mockups
+            </span>
+          </CaseStudyDetailContainer>
+          <CaseStudyDetailContainer style={{ maxWidth: "1320px" }}>
+            <Swiper
+              slidesPerView={2}
+              spaceBetween={220}
+              style={{ height: "620px" }}
+            >
+              <SwiperSlide>
+                <FreteriumLogisticScreen1 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <FreteriumLogisticScreen2 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <FreteriumLogisticScreen3 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <FreteriumLogisticScreen4 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <FreteriumLogisticScreen5 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <FreteriumLogisticScreen6 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <FreteriumLogisticScreen7 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <FreteriumLogisticScreen8 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <FreteriumLogisticScreen9 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <FreteriumLogisticScreen10 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <FreteriumLogisticScreen11 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <FreteriumLogisticScreen12 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <FreteriumLogisticScreen13 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <FreteriumLogisticScreen14 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <FreteriumLogisticScreen15 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <FreteriumLogisticScreen16 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <FreteriumLogisticScreen17 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <FreteriumLogisticScreen18 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <FreteriumLogisticScreen19 />
+              </SwiperSlide>
+            </Swiper>
+          </CaseStudyDetailContainer>
+        </FreteriumUserFlowChartWrapper>
+
         <CaseStudyDetailContainer className="mt-xl" as="section">
           <h2> Usability testing</h2>
           <p>
@@ -437,6 +546,7 @@ export const FreteriumCaseStudy = () => {
             <a
               href="https://docs.google.com/document/d/1NtzKfuH0nJ0nfkSkzvWDveAkZ1Z4T-53/edit?usp=sharing&ouid=109556280509711929285&rtpof=true&sd=true"
               target="_blank"
+              rel="noreferrer"
             >
               https://docs.google.com/document/d/1NtzKfuH0nJ0nfkSkzvWDveAkZ1Z4T-53/edit?usp=sharing&ouid=109556280509711929285&rtpof=true&sd=true
             </a>

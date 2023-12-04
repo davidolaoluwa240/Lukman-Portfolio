@@ -24,3 +24,5 @@ export * from "./experience-preview/experience-preview.component";
 export * from "./experience-preview/experience-preview-card/experience-preview-card.component";
 export * from "./quote-box/quote-box.component";
 export * from "./case-study-detail-footer/case-study-detail-footer.component";
+export * from "./swimmo-design-process-list/swimmo-design-process-list.component";
+export * from "./swimmo-design-process-list/swimmo-design-process-card/swimmo-design-process-card.component";

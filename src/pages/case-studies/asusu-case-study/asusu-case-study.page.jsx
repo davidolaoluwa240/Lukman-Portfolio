@@ -6,6 +6,7 @@ import { useStaticData } from "../../../hooks";
 
 // Components
 import { Fragment } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import {
   CaseStudyDetailHero,
   CaseStudyDetailFooter,
@@ -22,6 +23,35 @@ import AsusuUserFlow from "../../../assets/images/asusu-user-flow.svg?react";
 import AsusuDesign1 from "../../../assets/images/asusu-design-1.svg?react";
 import AsusuDesign2 from "../../../assets/images/asusu-design-2.svg?react";
 import AsusuResearchField from "../../../assets/images/asusu-research-field.svg?react";
+import AsusuPolishedDesignOther1 from "../../../assets/images/asusu-polished-design-other1.svg?react";
+import AsusuPolishedDesignOther2 from "../../../assets/images/asusu-polished-design-other2.svg?react";
+import AsusuPolishedDesignOther3 from "../../../assets/images/asusu-polished-design-other3.svg?react";
+import AsusuPolishedDesignOther4 from "../../../assets/images/asusu-polished-design-other4.svg?react";
+import AsusuPolishedDesignOther5 from "../../../assets/images/asusu-polished-design-other5.svg?react";
+import AsusuPolishedDesignOther6 from "../../../assets/images/asusu-polished-design-other6.svg?react";
+import AsusuPolishedDesignOther7 from "../../../assets/images/asusu-polished-design-other7.svg?react";
+import AsusuPolishedDesignOther8 from "../../../assets/images/asusu-polished-design-other8.svg?react";
+import AsusuPolishedDesignOther9 from "../../../assets/images/asusu-polished-design-other9.svg?react";
+import AsusuPolishedDesignOther10 from "../../../assets/images/asusu-polished-design-other10.svg?react";
+import AsusuPolishedDesignOther11 from "../../../assets/images/asusu-polished-design-other11.svg?react";
+import AsusuPolishedDesignOther12 from "../../../assets/images/asusu-polished-design-other12.svg?react";
+import AsusuPolishedDesignOther13 from "../../../assets/images/asusu-polished-design-other13.svg?react";
+import AsusuPolishedDesignOther14 from "../../../assets/images/asusu-polished-design-other14.svg?react";
+import AsusuPolishedDesignOther15 from "../../../assets/images/asusu-polished-design-other14.svg?react";
+import AsusuPolishedDesign1 from "../../../assets/images/asusu-polished-design1.svg?react";
+import AsusuPolishedDesign2 from "../../../assets/images/asusu-polished-design2.svg?react";
+import AsusuPolishedDesign3 from "../../../assets/images/asusu-polished-design3.svg?react";
+import AsusuPolishedDesign4 from "../../../assets/images/asusu-polished-design4.svg?react";
+import AsusuPolishedDesign5 from "../../../assets/images/asusu-polished-design5.svg?react";
+import AsusuPolishedDesign6 from "../../../assets/images/asusu-polished-design6.svg?react";
+import AsusuPolishedDesign7 from "../../../assets/images/asusu-polished-design7.svg?react";
+import AsusuPolishedDesign8 from "../../../assets/images/asusu-polished-design8.svg?react";
+import AsusuPolishedDesign9 from "../../../assets/images/asusu-polished-design9.svg?react";
+import AsusuPolishedDesign10 from "../../../assets/images/asusu-polished-design10.svg?react";
+import AsusuPolishedDesign11 from "../../../assets/images/asusu-polished-design11.svg?react";
+
+// Styles
+import "swiper/css";
 
 export const AsusuCaseStudy = () => {
   const {
@@ -90,6 +120,7 @@ export const AsusuCaseStudy = () => {
               className="is-extra-bold is-color-primary"
               href="https://www.linkedin.com/in/bardeson-lucky-687ab834/"
               target="_blank"
+              rel="noreferrer"
             >
               BARDESON LUCKY
             </a>{" "}
@@ -98,6 +129,7 @@ export const AsusuCaseStudy = () => {
               className="is-extra-bold is-color-primary"
               href="https://www.linkedin.com/in/mubarak-aminu/"
               target="_blank"
+              rel="noreferrer"
             >
               Mubarak Muhammad Aminu
             </a>{" "}
@@ -106,6 +138,7 @@ export const AsusuCaseStudy = () => {
               className="is-extra-bold is-color-primary"
               href="https://www.linkedin.com/in/bitrus-amlai/"
               target="_blank"
+              rel="noreferrer"
             >
               Amlai (Istifanus) Bitrus
             </a>{" "}
@@ -114,6 +147,7 @@ export const AsusuCaseStudy = () => {
               className="is-extra-bold is-color-primary"
               href="https://www.linkedin.com/in/yzakari/"
               target="_blank"
+              rel="noreferrer"
             >
               Yusuf Walter Zakari
             </a>{" "}
@@ -458,7 +492,7 @@ export const AsusuCaseStudy = () => {
         </CaseStudyDetailContainer>
 
         <AsusuUserFlowChartWrapper
-          style={{ padding: "4.7rem 0", backgroundColor: "#f1f2f3" }}
+          style={{ padding: "4.7rem 0" }}
           className="mt-xl"
         >
           <CaseStudyDetailContainer>
@@ -468,11 +502,11 @@ export const AsusuCaseStudy = () => {
               in the context of the entire system. The goal was to address all
               issues comprehensively, with the aim of delivering a satisfying
               user experience that enables new users to quickly perceive the
-              platform's value, from their initial interactions to the creation
-              of their first transport order (TO). I shared this perspective
-              with the team to encourage a collective effort in reimagining the
-              user flow in a way that prioritizes user-centric solutions and
-              aligns with our overarching goals for improvement.
+              platform&apos;s value, from their initial interactions to the
+              creation of their first transport order (TO). I shared this
+              perspective with the team to encourage a collective effort in
+              reimagining the user flow in a way that prioritizes user-centric
+              solutions and aligns with our overarching goals for improvement.
             </p>
             <AsusuUserFlow aria-label="User flow chart diagram" />
             <p className="mt-md is-text-sm">
@@ -484,7 +518,135 @@ export const AsusuCaseStudy = () => {
         </AsusuUserFlowChartWrapper>
 
         <AsusuUserFlowChartWrapper
-          style={{ padding: "4rem 0", backgroundColor: "#f1f2f3" }}
+          style={{ padding: "4rem 0 10rem", backgroundImage: "none" }}
+          className="mt-xl"
+        >
+          <CaseStudyDetailContainer
+            className="mb-md"
+            style={{ maxWidth: "796px" }}
+          >
+            <h2>Polished Designs</h2>
+            <p className="mt-sm mb-sm is-regular">
+              This is the flow of member management{" "}
+            </p>
+            <span className="case-study-note-box">
+              NB: swipe right to view more mockups
+            </span>
+          </CaseStudyDetailContainer>
+          <CaseStudyDetailContainer style={{ maxWidth: "1320px" }}>
+            <Swiper
+              slidesPerView={2}
+              spaceBetween={220}
+              style={{ height: "773.071px" }}
+            >
+              <SwiperSlide>
+                <AsusuPolishedDesign1 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <AsusuPolishedDesign2 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <AsusuPolishedDesign3 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <AsusuPolishedDesign4 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <AsusuPolishedDesign5 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <AsusuPolishedDesign6 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <AsusuPolishedDesign7 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <AsusuPolishedDesign8 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <AsusuPolishedDesign9 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <AsusuPolishedDesign10 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <AsusuPolishedDesign11 />
+              </SwiperSlide>
+            </Swiper>
+          </CaseStudyDetailContainer>
+        </AsusuUserFlowChartWrapper>
+
+        <AsusuUserFlowChartWrapper
+          style={{ padding: "4rem 0 10rem" }}
+          className="mt-xl"
+        >
+          <CaseStudyDetailContainer
+            className="mb-md"
+            style={{ maxWidth: "796px" }}
+          >
+            <h2>Polished Designs</h2>
+            <p className="mt-sm mb-sm is-regular">...Some other screens </p>
+            <span className="case-study-note-box">
+              NB: swipe right to view more mockups
+            </span>
+          </CaseStudyDetailContainer>
+          <CaseStudyDetailContainer style={{ maxWidth: "1320px" }}>
+            <Swiper
+              slidesPerView={2}
+              spaceBetween={220}
+              style={{ height: "774.993px" }}
+            >
+              <SwiperSlide>
+                <AsusuPolishedDesignOther1 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <AsusuPolishedDesignOther2 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <AsusuPolishedDesignOther3 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <AsusuPolishedDesignOther4 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <AsusuPolishedDesignOther5 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <AsusuPolishedDesignOther6 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <AsusuPolishedDesignOther7 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <AsusuPolishedDesignOther8 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <AsusuPolishedDesignOther9 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <AsusuPolishedDesignOther10 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <AsusuPolishedDesignOther11 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <AsusuPolishedDesignOther12 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <AsusuPolishedDesignOther13 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <AsusuPolishedDesignOther14 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <AsusuPolishedDesignOther15 />
+              </SwiperSlide>
+            </Swiper>
+          </CaseStudyDetailContainer>
+        </AsusuUserFlowChartWrapper>
+
+        <AsusuUserFlowChartWrapper
+          style={{ padding: "4rem 0" }}
           className="mt-xl"
         >
           <CaseStudyDetailContainer style={{ maxWidth: "946px" }}>

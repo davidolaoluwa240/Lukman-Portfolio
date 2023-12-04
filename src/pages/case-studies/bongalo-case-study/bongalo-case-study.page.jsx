@@ -6,6 +6,7 @@ import { useStaticData } from "../../../hooks";
 
 // Components
 import { Fragment } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import {
   CaseStudyDetailHero,
   CaseStudyDetailFooter,
@@ -15,6 +16,57 @@ import {
   CaseStudyDetail,
   Container as CaseStudyDetailContainer,
 } from "../../../assets/styles/common.styles";
+import { FreteriumUserFlowChartWrapper as BongaloUserFlowChartWrapper } from "../freterium-case-study/freterium-case-study.styles";
+import BongaloPreListing1 from "../../../assets/images/bongalo-pre-listing1.svg?react";
+import BongaloPreListing2 from "../../../assets/images/bongalo-pre-listing2.svg?react";
+import BongaloPreListing3 from "../../../assets/images/bongalo-pre-listing3.svg?react";
+import BongaloPreListing4 from "../../../assets/images/bongalo-pre-listing4.svg?react";
+import BongaloPreListing5 from "../../../assets/images/bongalo-pre-listing5.svg?react";
+import BongaloPreListing6 from "../../../assets/images/bongalo-pre-listing6.svg?react";
+import BongaloPreListing7 from "../../../assets/images/bongalo-pre-listing7.svg?react";
+import BongaloPreListing8 from "../../../assets/images/bongalo-pre-listing8.svg?react";
+import BongaloPreListing9 from "../../../assets/images/bongalo-pre-listing9.svg?react";
+import BongaloPreListing10 from "../../../assets/images/bongalo-pre-listing10.svg?react";
+import BongaloPreListing11 from "../../../assets/images/bongalo-pre-listing11.svg?react";
+import BongaloPreListing12 from "../../../assets/images/bongalo-pre-listing12.svg?react";
+import BongaloPreListing13 from "../../../assets/images/bongalo-pre-listing13.svg?react";
+import BongaloPreListing14 from "../../../assets/images/bongalo-pre-listing14.svg?react";
+import BongaloPreListing15 from "../../../assets/images/bongalo-pre-listing15.svg?react";
+import BongaloPreListing16 from "../../../assets/images/bongalo-pre-listing16.svg?react";
+import BongaloPreListing17 from "../../../assets/images/bongalo-pre-listing17.svg?react";
+import BongaloPreListing18 from "../../../assets/images/bongalo-pre-listing18.svg?react";
+import BongaloCurListing1 from "../../../assets/images/bongalo-cur-listing1.svg?react";
+import BongaloCurListing2 from "../../../assets/images/bongalo-cur-listing2.svg?react";
+import BongaloCurListing3 from "../../../assets/images/bongalo-cur-listing3.svg?react";
+import BongaloCurListing4 from "../../../assets/images/bongalo-cur-listing4.svg?react";
+import BongaloCurListing5 from "../../../assets/images/bongalo-cur-listing5.svg?react";
+import BongaloCurListing6 from "../../../assets/images/bongalo-cur-listing6.svg?react";
+import BongaloCurListing7 from "../../../assets/images/bongalo-cur-listing7.svg?react";
+import BongaloCurListing8 from "../../../assets/images/bongalo-cur-listing8.svg?react";
+import BongaloCurListing9 from "../../../assets/images/bongalo-cur-listing9.svg?react";
+import BongaloCurListing10 from "../../../assets/images/bongalo-cur-listing10.svg?react";
+import BongaloCurListing11 from "../../../assets/images/bongalo-cur-listing11.svg?react";
+import BongaloCurListing12 from "../../../assets/images/bongalo-cur-listing12.svg?react";
+import BongaloCurListing13 from "../../../assets/images/bongalo-cur-listing13.svg?react";
+import BongaloCurListing14 from "../../../assets/images/bongalo-cur-listing14.svg?react";
+import BongaloCurListing15 from "../../../assets/images/bongalo-cur-listing15.svg?react";
+import BongaloCurListing16 from "../../../assets/images/bongalo-cur-listing16.svg?react";
+import BongaloCurListing17 from "../../../assets/images/bongalo-cur-listing17.svg?react";
+import BongaloCurListing18 from "../../../assets/images/bongalo-cur-listing18.svg?react";
+import BongaloCurListing19 from "../../../assets/images/bongalo-cur-listing19.svg?react";
+import BongaloCurListing20 from "../../../assets/images/bongalo-cur-listing20.svg?react";
+import BongaloCurListing21 from "../../../assets/images/bongalo-cur-listing21.svg?react";
+import BongaloCurListing22 from "../../../assets/images/bongalo-cur-listing22.svg?react";
+import BongaloUserFlow1 from "../../../assets/images/bongalo-user-flow1.svg?react";
+import BongaloUserFlow2 from "../../../assets/images/bongalo-user-flow2.svg?react";
+import BongaloMoreScreen1 from "../../../assets/images/bongalo-more-screen1.svg?react";
+import BongaloMoreScreen2 from "../../../assets/images/bongalo-more-screen2.svg?react";
+import BongaloMoreScreen3 from "../../../assets/images/bongalo-more-screen3.svg?react";
+import BongaloMoreScreen4 from "../../../assets/images/bongalo-more-screen4.svg?react";
+import BongaloMoreScreen5 from "../../../assets/images/bongalo-more-screen5.svg?react";
+
+// Styles
+import "swiper/css";
 
 export const BongaloCaseStudy = () => {
   const {
@@ -60,6 +112,7 @@ export const BongaloCaseStudy = () => {
               className="is-extra-md is-color-primary"
               href="https://www.linkedin.com/in/jr-nosouh-tonteh-4052871ba/"
               target="_blank"
+              rel="noreferrer"
             >
               Jr Nosouh Tonteh
             </a>{" "}
@@ -68,6 +121,7 @@ export const BongaloCaseStudy = () => {
               href="https://www.linkedin.com/in/nsikan-etukudoh-244483149/"
               className="is-extra-md is-color-primary"
               target="_blank"
+              rel="noreferrer"
             >
               Nsikan Etukudoh{" "}
             </a>
@@ -76,6 +130,7 @@ export const BongaloCaseStudy = () => {
               href="https://www.linkedin.com/in/david-atebisun-4ab786171/"
               className="is-extra-md is-color-primary"
               target="_blank"
+              rel="noreferrer"
             >
               {" "}
               David Atebisun
@@ -85,6 +140,7 @@ export const BongaloCaseStudy = () => {
               href="https://www.linkedin.com/in/nbassey?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABvrSGABGGPhSyHXYGWCbNdQeqE3LdZ-_sA"
               className="is-extra-md is-color-primary"
               target="_blank"
+              rel="noreferrer"
             >
               {" "}
               Nelson Bassey
@@ -94,6 +150,7 @@ export const BongaloCaseStudy = () => {
               href="https://www.linkedin.com/in/epaphrate-minuifoung?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABYbE28BlyRs7sOj2XPL42bcgdevjU6cjA8"
               className="is-extra-md is-color-primary"
               target="_blank"
+              rel="noopener noreferrer"
             >
               {" "}
               Minuifuong Nghombombong{" "}
@@ -121,7 +178,7 @@ export const BongaloCaseStudy = () => {
             outline our research process:
           </p>
 
-          <ol>
+          <ol className="ml-md">
             <li className="is-extra-bold">
               User Surveys:
               <ul>
@@ -197,6 +254,85 @@ export const BongaloCaseStudy = () => {
           </p>
         </CaseStudyDetailContainer>
 
+        <BongaloUserFlowChartWrapper
+          style={{ padding: "4rem 0 10rem" }}
+          className="mt-xl"
+        >
+          <CaseStudyDetailContainer
+            style={{ maxWidth: "796px", marginBottom: "5rem" }}
+          >
+            <h2>
+              Take a look at the previous experince of listing properties on
+              Bongalo
+            </h2>
+            <span className="case-study-note-box">
+              NB: swipe right to view more mockups
+            </span>
+          </CaseStudyDetailContainer>
+          <CaseStudyDetailContainer style={{ maxWidth: "1290px" }}>
+            <Swiper
+              slidesPerView={3}
+              spaceBetween={64}
+              style={{ height: "350px" }}
+            >
+              <SwiperSlide>
+                <BongaloPreListing1 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloPreListing2 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloPreListing3 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloPreListing4 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloPreListing5 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloPreListing6 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloPreListing7 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloPreListing8 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloPreListing9 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloPreListing10 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloPreListing11 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloPreListing12 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloPreListing13 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloPreListing14 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloPreListing15 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloPreListing16 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloPreListing17 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloPreListing18 />
+              </SwiperSlide>
+            </Swiper>
+          </CaseStudyDetailContainer>
+        </BongaloUserFlowChartWrapper>
+
         <CaseStudyDetailContainer as="section">
           <h2>Ideation Workshop</h2>
           <p>
@@ -205,6 +341,33 @@ export const BongaloCaseStudy = () => {
             to address identified pain points and enhance the user experience.
           </p>
         </CaseStudyDetailContainer>
+
+        <BongaloUserFlowChartWrapper
+          style={{ padding: "0" }}
+          className="mt-xl is-bg-body-color"
+        >
+          <CaseStudyDetailContainer
+            className="mb-md"
+            style={{ maxWidth: "796px" }}
+          >
+            <h2>Firstly, we improved both User Flow and task flow</h2>
+          </CaseStudyDetailContainer>
+          <CaseStudyDetailContainer style={{ maxWidth: "1320px" }}>
+            <Swiper
+              slidesPerView={"auto"}
+              spaceBetween={12}
+              style={{ height: "684px" }}
+            >
+              <SwiperSlide>
+                <BongaloUserFlow1 style={{ boxShadow: "none" }} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloUserFlow2 style={{ boxShadow: "none" }} />
+              </SwiperSlide>
+            </Swiper>
+          </CaseStudyDetailContainer>
+        </BongaloUserFlowChartWrapper>
+
         <CaseStudyDetailContainer as="section">
           <h2>Visual Polish</h2>
           <p>
@@ -215,7 +378,104 @@ export const BongaloCaseStudy = () => {
           </p>
         </CaseStudyDetailContainer>
 
-        <CaseStudyDetailContainer as="section">
+        <BongaloUserFlowChartWrapper
+          style={{ padding: "4rem 0 3rem", backgroundImage: "none" }}
+          className="mt-xl"
+        >
+          <CaseStudyDetailContainer
+            className="mb-md"
+            style={{ maxWidth: "796px" }}
+          >
+            <h2>
+              Take a look at the New experience of listing properties on Bongalo
+            </h2>
+            <span className="case-study-note-box">
+              NB: swipe right to view more mockups
+            </span>
+          </CaseStudyDetailContainer>
+          <CaseStudyDetailContainer style={{ maxWidth: "1320px" }}>
+            <Swiper
+              slidesPerView={2}
+              spaceBetween={190}
+              style={{ height: "590px" }}
+            >
+              <SwiperSlide>
+                <BongaloCurListing1 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloCurListing2 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloCurListing3 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloCurListing4 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloCurListing5 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloCurListing6 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloCurListing7 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloCurListing8 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloCurListing9 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloCurListing10 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloCurListing11 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloCurListing12 style={{ boxShadow: "none" }} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloCurListing13 style={{ boxShadow: "none" }} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloCurListing14 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloCurListing15 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloCurListing16 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloCurListing17 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloCurListing18 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloCurListing19 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloCurListing20 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloCurListing21 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloCurListing22 />
+              </SwiperSlide>
+            </Swiper>
+            <p
+              className="is-color-primary is-extra-bold mt-sm"
+              style={{ textAlign: "right", marginRight: "3.9rem" }}
+            >
+              NB: swipe right to view more mockups
+            </p>
+          </CaseStudyDetailContainer>
+        </BongaloUserFlowChartWrapper>
+
+        <CaseStudyDetailContainer className="mt-xl" as="section">
           <h2>Ideas that goes into the above redesign</h2>
           <p>
             To tackle the challenges posed by the property listing process, I
@@ -268,6 +528,44 @@ export const BongaloCaseStudy = () => {
           </ul>
         </CaseStudyDetailContainer>
 
+        <BongaloUserFlowChartWrapper
+          style={{ padding: "4rem 0 9rem", backgroundImage: "none" }}
+          className="mt-xl"
+        >
+          <CaseStudyDetailContainer
+            className="mb-md"
+            style={{ maxWidth: "796px" }}
+          >
+            <h2>Some more screens..</h2>
+            <span className="case-study-note-box">
+              NB: swipe right to view more mockups
+            </span>
+          </CaseStudyDetailContainer>
+          <CaseStudyDetailContainer style={{ maxWidth: "1320px" }}>
+            <Swiper
+              slidesPerView={2}
+              spaceBetween={220}
+              style={{ height: "570px" }}
+            >
+              <SwiperSlide>
+                <BongaloMoreScreen1 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloMoreScreen2 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloMoreScreen3 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloMoreScreen4 />
+              </SwiperSlide>
+              <SwiperSlide>
+                <BongaloMoreScreen5 />
+              </SwiperSlide>
+            </Swiper>
+          </CaseStudyDetailContainer>
+        </BongaloUserFlowChartWrapper>
+
         <CaseStudyDetailContainer as="section">
           <h2>Results</h2>
           <p>
@@ -318,7 +616,7 @@ export const BongaloCaseStudy = () => {
               User satisfaction ratings surged from
               <span className="is-danger is-extra-bold"> 3.8</span> to{" "}
               <span className="is-success is-extra-bold is-text-md">4.6</span>{" "}
-              (on a scale of 1-5) after the redesign.
+              (on a scale of 2-5) after the redesign.
             </li>
             <li className="mb-sm ml-md">
               <span className="is-extra-bold">Mobile Traffic Growth:</span>{" "}
