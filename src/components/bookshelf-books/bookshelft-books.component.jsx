@@ -1,11 +1,8 @@
-// Modules
-import React from "react";
-
 // Hooks
 import { useStaticData } from "../../hooks";
 
 // Components
-import { BookshelfBooksList } from "../";
+import { BookshelfBooksList } from "./bookshelf-books-list/bookshelf-books-list.component";
 
 // Styles
 import { BookshelfBooksContainer } from "./bookshelf-books.styles";

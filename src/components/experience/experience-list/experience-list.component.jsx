@@ -1,8 +1,5 @@
-// Modules
-import React from "react";
-
 // Components
-import { ExperienceCard } from "../../";
+import { ExperienceCard } from "../experience-card/experience-card.component";
 
 // Styles
 import { ExperienceListWrapper } from "./experience-list.styles";

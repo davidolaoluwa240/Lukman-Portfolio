@@ -1,10 +1,7 @@
-// Modules
-import React from "react";
-
 // Components
 import { Fragment } from "react";
 import { Outlet } from "react-router-dom";
-import { Navbar } from "../../components";
+import { Navbar } from "../../components/navbar/navbar.component";
 
 export const CaseStudyLayout = () => {
   return (

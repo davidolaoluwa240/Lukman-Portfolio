@@ -1,8 +1,5 @@
-// Modules
-import React from "react";
-
 // Components
-import { SwimmoDesignProcessCard } from "../";
+import { SwimmoDesignProcessCard } from "./swimmo-design-process-card/swimmo-design-process-card.component";
 
 // Styles
 import { SwimmoDesignProcessListWrapper } from "./swimmo-design-process-list.styles";

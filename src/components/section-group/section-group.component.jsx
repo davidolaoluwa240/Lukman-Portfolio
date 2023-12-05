@@ -1,6 +1,3 @@
-// Modules
-import React from "react";
-
 // Styles
 import {
   SectionGroupContainer,

@@ -1,11 +1,8 @@
-// Modules
-import React from "react";
-
 // Hooks
 import { useStaticData } from "../../hooks";
 
 // Components
-import { SideProjectsList } from "../";
+import { SideProjectsList } from "./side-projects-list/side-projects-list.component";
 
 // Styles
 import {

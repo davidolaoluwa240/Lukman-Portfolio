@@ -1,7 +1,4 @@
-// Modules
-import React from "react";
-
-// Components
+// Images
 import LukmanPhoto from "../../assets/images/lukman-pic.svg?react";
 
 // Styles

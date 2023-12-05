@@ -1,22 +1,19 @@
-// Modules
-import React from "react";
-
 // Hooks
 import { useStaticData } from "../../../hooks";
 
 // Components
 import { Fragment } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import {
-  CaseStudyDetailHero,
-  CaseStudyDetailFooter,
-  QuoteBox,
-} from "../../../components";
+import { CaseStudyDetailHero } from "../../../components/case-study-detail-hero/case-study-detail-hero.component";
+import { CaseStudyDetailFooter } from "../../../components/case-study-detail-footer/case-study-detail-footer.component";
+import { QuoteBox } from "../../../components/quote-box/quote-box.component";
 import {
   CaseStudyDetail,
   Container as CaseStudyDetailContainer,
 } from "../../../assets/styles/common.styles";
 import { FreteriumUserFlowChartWrapper as BongaloUserFlowChartWrapper } from "../freterium-case-study/freterium-case-study.styles";
+
+// Images
 import BongaloPreListing1 from "../../../assets/images/bongalo-pre-listing1.svg?react";
 import BongaloPreListing2 from "../../../assets/images/bongalo-pre-listing2.svg?react";
 import BongaloPreListing3 from "../../../assets/images/bongalo-pre-listing3.svg?react";
@@ -68,7 +65,7 @@ import BongaloMoreScreen5 from "../../../assets/images/bongalo-more-screen5.svg?
 // Styles
 import "swiper/css";
 
-export const BongaloCaseStudy = () => {
+const BongaloCaseStudy = () => {
   const {
     CASE_STUDY_DETAIL_HERO_ITEMS: caseStudyDetailHeroItems,
     CASE_STUDY_ITEMS: caseStudyItems,
@@ -661,3 +658,5 @@ export const BongaloCaseStudy = () => {
     </Fragment>
   );
 };
+
+export default BongaloCaseStudy;

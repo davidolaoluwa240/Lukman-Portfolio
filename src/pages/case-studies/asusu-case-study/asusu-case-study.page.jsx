@@ -1,17 +1,12 @@
-// Modules
-import React from "react";
-
 // Hooks
 import { useStaticData } from "../../../hooks";
 
 // Components
 import { Fragment } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import {
-  CaseStudyDetailHero,
-  CaseStudyDetailFooter,
-  QuoteBox,
-} from "../../../components";
+import { CaseStudyDetailHero } from "../../../components/case-study-detail-hero/case-study-detail-hero.component";
+import { CaseStudyDetailFooter } from "../../../components/case-study-detail-footer/case-study-detail-footer.component";
+import { QuoteBox } from "../../../components/quote-box/quote-box.component";
 import {
   CaseStudyDetail,
   Container as CaseStudyDetailContainer,
@@ -19,6 +14,8 @@ import {
   UserPersonasList,
 } from "../../../assets/styles/common.styles";
 import { FreteriumUserFlowChartWrapper as AsusuUserFlowChartWrapper } from "../freterium-case-study/freterium-case-study.styles";
+
+// Images
 import AsusuUserFlow from "../../../assets/images/asusu-user-flow.svg?react";
 import AsusuDesign1 from "../../../assets/images/asusu-design-1.svg?react";
 import AsusuDesign2 from "../../../assets/images/asusu-design-2.svg?react";
@@ -53,7 +50,7 @@ import AsusuPolishedDesign11 from "../../../assets/images/asusu-polished-design1
 // Styles
 import "swiper/css";
 
-export const AsusuCaseStudy = () => {
+const AsusuCaseStudy = () => {
   const {
     CASE_STUDY_DETAIL_HERO_ITEMS: caseStudyDetailHeroItems,
     CASE_STUDY_ITEMS: caseStudyItems,
@@ -797,3 +794,5 @@ export const AsusuCaseStudy = () => {
     </Fragment>
   );
 };
+
+export default AsusuCaseStudy;

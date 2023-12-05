@@ -1,6 +1,3 @@
-// Modules
-import React from "react";
-
 // Hooks
 import { useStaticData } from "../../../hooks";
 
@@ -10,15 +7,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { MdAlarm } from "react-icons/md";
 import { AiFillCheckCircle, AiFillHeart } from "react-icons/ai";
 import { RiAlarmFill } from "react-icons/ri";
-import {
-  CaseStudyDetailHero,
-  QuoteBox,
-  CaseStudyDetailFooter,
-} from "../../../components";
+import { CaseStudyDetailHero } from "../../../components/case-study-detail-hero/case-study-detail-hero.component";
+import { CaseStudyDetailFooter } from "../../../components/case-study-detail-footer/case-study-detail-footer.component";
+import { QuoteBox } from "../../../components/quote-box/quote-box.component";
 import {
   CaseStudyDetail,
   Container as CaseStudyDetailContainer,
 } from "../../../assets/styles/common.styles";
+
+// Images
 import FreteriumAffinityDiagram from "../../../assets/images/freterium-affinity-diagram.svg?react";
 import FreteriumUserFlow from "../../../assets/images/freterium-user-flow.svg?react";
 import FreteriumParticipants from "../../../assets/images/freterium-participants.svg?react";
@@ -51,7 +48,7 @@ import {
   FreteriumAvgMetrics,
 } from "./freterium-case-study.styles";
 
-export const FreteriumCaseStudy = () => {
+const FreteriumCaseStudy = () => {
   const {
     CASE_STUDY_DETAIL_HERO_ITEMS: caseStudyDetailHeroItems,
     CASE_STUDY_ITEMS: caseStudyItems,
@@ -589,3 +586,5 @@ export const FreteriumCaseStudy = () => {
     </Fragment>
   );
 };
+
+export default FreteriumCaseStudy;

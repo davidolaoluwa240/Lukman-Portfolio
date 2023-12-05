@@ -1,11 +1,9 @@
-// Modules
-import React from "react";
-
 // Hooks
 import { useStaticData } from "../../hooks";
 
 // Components
-import { SectionGroup, ExperienceList } from "../";
+import { SectionGroup } from "../section-group/section-group.component";
+import { ExperienceList } from "./experience-list/experience-list.component";
 
 // Styles
 import { ExperienceWrapper } from "./experience.styles";

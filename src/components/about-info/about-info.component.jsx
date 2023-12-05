@@ -1,8 +1,5 @@
-// Modules
-import React from "react";
-
 // Components
-import { SectionGroup } from "../";
+import { SectionGroup } from "../section-group/section-group.component";
 
 // Styles
 import { AboutInfoWrapper } from "./about-info.styles";

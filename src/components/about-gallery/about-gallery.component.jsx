@@ -1,7 +1,4 @@
-// Modules
-import React from "react";
-
-// Components
+// Images
 import LukmanGallery1 from "../../assets/images/lukman-gallery-1.svg?react";
 import LukmanGallery2 from "../../assets/images/lukman-gallery-2.svg?react";
 import LukmanGallery3 from "../../assets/images/lukman-gallery-3.svg?react";

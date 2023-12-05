@@ -1,8 +1,5 @@
-// Modules
-import React from "react";
-
 // Components
-import { CaseStudyCard } from "../..";
+import { CaseStudyCard } from "../case-study-card/case-study-card.component";
 
 // Styles
 import {

@@ -1,8 +1,5 @@
-// Modules
-import React from "react";
-
 // Components
-import { BookshelfBooksCard } from "../../";
+import { BookshelfBooksCard } from "../bookshelf-books-card/bookshelf-books-card.component";
 
 // Styles
 import { BookshelfBooksListWrapper } from "./bookshelf-books-list.styles";

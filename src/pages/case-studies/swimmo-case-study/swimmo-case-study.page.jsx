@@ -3,11 +3,9 @@ import { useStaticData } from "../../../hooks";
 
 // Components
 import { Fragment } from "react";
-import {
-  CaseStudyDetailHero,
-  CaseStudyDetailFooter,
-  SwimmoDesignProcessList,
-} from "../../../components";
+import { CaseStudyDetailHero } from "../../../components/case-study-detail-hero/case-study-detail-hero.component";
+import { CaseStudyDetailFooter } from "../../../components/case-study-detail-footer/case-study-detail-footer.component";
+import { SwimmoDesignProcessList } from "../../../components/swimmo-design-process-list/swimmo-design-process-list.component";
 import {
   Container as CaseStudyDetailContainer,
   CaseStudyDetail,
@@ -15,6 +13,8 @@ import {
   UserPersonasCard,
 } from "../../../assets/styles/common.styles";
 import { FreteriumUserFlowChartWrapper as SwimmoUserFlowChartWrapper } from "../freterium-case-study/freterium-case-study.styles";
+
+// Images
 import SwimmoSwimmingCategory from "../../../assets/images/swimmo-swimming-category.svg?react";
 import SwimmoProgressiveWorkout from "../../../assets/images/swimmo-progressive-workout.svg?react";
 import SwimmoActivityTracking from "../../../assets/images/swimmo-activity-tracking.svg?react";
@@ -25,7 +25,7 @@ import SwimmoPolishedDesign2 from "../../../assets/images/swimmo-polished-design
 import SwimmoPolishedDesign3 from "../../../assets/images/swimmo-polished-design3.svg?react";
 import SwimmoPolishedDesign4 from "../../../assets/images/swimmo-polished-design4.svg?react";
 
-export const SwimmoCaseStudy = () => {
+const SwimmoCaseStudy = () => {
   const {
     CASE_STUDY_DETAIL_HERO_ITEMS: caseStudyDetailHeroItems,
     CASE_STUDY_ITEMS: caseStudyItems,
@@ -477,3 +477,5 @@ export const SwimmoCaseStudy = () => {
     </Fragment>
   );
 };
+
+export default SwimmoCaseStudy;

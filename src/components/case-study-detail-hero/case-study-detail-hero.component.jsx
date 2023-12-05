@@ -1,9 +1,6 @@
-// Modules
-import React from "react";
-
 // Components
 import { Fragment } from "react";
-import { ExperiencePreview } from "..";
+import { ExperiencePreview } from "../experience-preview/experience-preview.component";
 
 // Styles
 import {

@@ -1,17 +1,12 @@
-// Modules
-import React from "react";
-
 // Components
-import {
-  HomeHero,
-  CaseStudyCardBase,
-  SideProjectsBase,
-} from "../../components";
+import { HomeHero } from "../../components/home-hero/home-hero.component";
+import { CaseStudyCardBase } from "../../components/case-study-card-base/case-study-card-base.component";
+import { SideProjectsBase } from "../../components/side-projects-base/side-projects-base.component";
 
 // Styles
 import { HomeWrapper } from "./home.styles";
 
-export const Home = () => {
+const Home = () => {
   return (
     <HomeWrapper>
       <HomeHero />
@@ -20,3 +15,5 @@ export const Home = () => {
     </HomeWrapper>
   );
 };
+
+export default Home;

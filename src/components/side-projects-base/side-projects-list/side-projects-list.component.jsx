@@ -1,8 +1,5 @@
-// Modules
-import React from "react";
-
 // Components
-import { SideProjectsCard } from "../../";
+import { SideProjectsCard } from "../side-projects-card/side-projects-card.component";
 
 // Styles
 import { SideProjectsListWrapper } from "./side-projects-list.styles";

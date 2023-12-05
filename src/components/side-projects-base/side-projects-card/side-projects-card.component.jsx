@@ -1,7 +1,4 @@
-// Modules
-import React from "react";
-
-// Components
+// Images
 import ListItemIcon from "../../../assets/images/list-icon.svg?react";
 
 // Styles

@@ -1,7 +1,4 @@
-// Modules
-import React from "react";
-
-// Components
+// Images
 import FooterImg from "../../assets/images/footer-img.svg?react";
 import EmailIcon from "../../assets/images/email-icon.svg?react";
 import InstagramIcon from "../../assets/images/instagram-icon.svg?react";
@@ -29,13 +26,18 @@ export const Footer = () => {
           </FooterContent>
 
           <FooterSocialsGroup>
-            <a target="_blank" href="mailto:lukmann.design@gmail.com">
+            <a
+              target="_blank"
+              href="mailto:lukmann.design@gmail.com"
+              rel="noreferrer"
+            >
               <EmailIcon aria-label="Contact Me On Email" />
             </a>
 
             <a
               target="_blank"
               href="https://www.linkedin.com/in/lukmansuleiman/"
+              rel="noreferrer"
             >
               <LinkedinIcon aria-label="Contact Me On Linkedin" />
             </a>
@@ -43,11 +45,16 @@ export const Footer = () => {
             <a
               target="_blank"
               href="https://www.instagram.com/lukmansuleiman_/"
+              rel="noreferrer"
             >
               <InstagramIcon aria-label="Contact Me On Instagram" />
             </a>
 
-            <a target="_blank" href="https://dribbble.com/Lukmandesign/about">
+            <a
+              target="_blank"
+              href="https://dribbble.com/Lukmandesign/about"
+              rel="noreferrer"
+            >
               <DribbleIcon aria-label="Contact Me On Instagram" />
             </a>
           </FooterSocialsGroup>

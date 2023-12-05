@@ -1,14 +1,11 @@
-// Modules
-import React from "react";
-
 // Components
-import { Fragment } from "react";
-import { BookshelfHero, BookshelfBooks } from "../../components";
+import { BookshelfBooks } from "../../components/bookshelf-books/bookshelft-books.component";
+import { BookshelfHero } from "../../components/bookshelf-hero/bookshelf-hero.component";
 
 // Styles
 import { BookshelfWrapper } from "./bookshelf.styles";
 
-export const Bookshelf = () => {
+const Bookshelf = () => {
   return (
     <BookshelfWrapper>
       <BookshelfHero />
@@ -16,3 +13,5 @@ export const Bookshelf = () => {
     </BookshelfWrapper>
   );
 };
+
+export default Bookshelf;

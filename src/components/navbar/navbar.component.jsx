@@ -1,8 +1,7 @@
-// Modules
-import React from "react";
-
 // Components
 import { Link } from "react-router-dom";
+
+// Images
 import NavbarLogo from "../../assets/images/logo.svg?react";
 
 // Styles

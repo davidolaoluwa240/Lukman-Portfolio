@@ -1,13 +1,12 @@
-// Modules
-import React from "react";
-
 // Hooks
 import { useNavigate } from "react-router-dom";
 
 // Components
 import { AiOutlineArrowUp } from "react-icons/ai";
-import { CaseStudyCard } from "../";
+import { CaseStudyCard } from "../case-study-card-base/case-study-card/case-study-card.component";
 import { Container as CaseStudyDetailFooterContainer } from "../../assets/styles/common.styles";
+
+// Images
 import UpNextArrowSVG from "../../assets/images/up-next-arrow.svg?react";
 
 // Styles

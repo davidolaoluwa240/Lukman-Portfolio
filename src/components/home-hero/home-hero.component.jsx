@@ -1,7 +1,4 @@
-// Modules
-import React from "react";
-
-// Components
+// Images
 import OpenTag from "../../assets/images/open-tag.svg?react";
 
 // Styles

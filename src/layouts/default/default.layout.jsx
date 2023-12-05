@@ -1,10 +1,8 @@
-// Modules
-import React from "react";
-
 // Components
 import { Fragment } from "react";
 import { Outlet } from "react-router-dom";
-import { Navbar, Footer } from "../../components";
+import { Navbar } from "../../components/navbar/navbar.component";
+import { Footer } from "../../components/footer/footer.component";
 
 export const DefaultLayout = () => {
   return (

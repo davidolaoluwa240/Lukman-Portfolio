@@ -1,8 +1,7 @@
-// Modules
-import React from "react";
-
 // Components
 import { Container as QuoteBoxContainer } from "../../assets/styles/common.styles";
+
+// Images
 import QuoteSVG from "../../assets/images/quote.svg?react";
 
 // Styles

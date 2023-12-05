@@ -1,13 +1,8 @@
-// Modules
-import React from "react";
-
 // Components
-import {
-  AboutHero,
-  AboutInfo,
-  AboutGallery,
-  Experience,
-} from "../../components";
+import { AboutHero } from "../../components/about-hero/about-hero.component";
+import { AboutInfo } from "../../components/about-info/about-info.component";
+import { AboutGallery } from "../../components/about-gallery/about-gallery.component";
+import { Experience } from "../../components/experience/experience.component";
 
 // Styles
 import { AboutWrapper } from "./about.styles";

@@ -1,11 +1,8 @@
-// Modules
-import React from "react";
-
 // Hooks
 import { useStaticData } from "../../hooks";
 
 // Components
-import { CaseStudyCardList } from "..";
+import { CaseStudyCardList } from "./case-study-card-list/case-study-card-list.component";
 
 // Styles
 import {
