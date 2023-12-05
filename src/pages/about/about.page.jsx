@@ -7,7 +7,7 @@ import { Experience } from "../../components/experience/experience.component";
 // Styles
 import { AboutWrapper } from "./about.styles";
 
-export const About = () => {
+const About = () => {
   return (
     <AboutWrapper>
       <AboutHero />
@@ -17,3 +17,5 @@ export const About = () => {
     </AboutWrapper>
   );
 };
+
+export default About;

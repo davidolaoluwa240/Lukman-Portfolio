@@ -4,6 +4,7 @@ import { lazy } from "react";
 // Components
 import { Suspense } from "react";
 import { Routes as Switch, Route } from "react-router-dom";
+import { PageSpinner } from "../components/page-spinner/page-spinner.component";
 
 // Pages
 const Home = lazy(() => import("../pages/home/home.page"));
@@ -27,7 +28,7 @@ import { DefaultLayout, CaseStudyLayout } from "../layouts";
 
 export const Routes = () => {
   return (
-    <Suspense fallback={<div>Loading Spinner Will In Here</div>}>
+    <Suspense fallback={<PageSpinner />}>
       <Switch>
         <Route path="/" element={<DefaultLayout />}>
           <Route index element={<Home />} />

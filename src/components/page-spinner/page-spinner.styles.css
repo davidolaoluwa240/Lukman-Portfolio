@@ -1,0 +1,141 @@
+.spinner {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--body-color);
+}
+
+.spinner .dank-ass-loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spinner .dank-ass-loader .row {
+  display: flex;
+}
+
+.spinner .arrow {
+  width: 0;
+  height: 0;
+  margin: 0 -6px;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 21.6px solid var(--primary-color);
+  animation: blink 1s infinite;
+  filter: drop-shadow(0 0 18px var(--primary-color));
+}
+
+.spinner .arrow.down {
+  transform: rotate(180deg);
+}
+
+.spinner .arrow.outer-1 {
+  animation-delay: -0.0555555556s;
+}
+
+.spinner .arrow.outer-2 {
+  animation-delay: -0.1111111111s;
+}
+
+.spinner .arrow.outer-3 {
+  animation-delay: -0.1666666667s;
+}
+
+.spinner .arrow.outer-4 {
+  animation-delay: -0.2222222222s;
+}
+
+.spinner .arrow.outer-5 {
+  animation-delay: -0.2777777778s;
+}
+
+.spinner .arrow.outer-6 {
+  animation-delay: -0.3333333333s;
+}
+
+.spinner .arrow.outer-7 {
+  animation-delay: -0.3888888889s;
+}
+
+.spinner .arrow.outer-8 {
+  animation-delay: -0.4444444444s;
+}
+
+.spinner .arrow.outer-9 {
+  animation-delay: -0.5s;
+}
+
+.spinner .arrow.outer-10 {
+  animation-delay: -0.5555555556s;
+}
+
+.spinner .arrow.outer-11 {
+  animation-delay: -0.6111111111s;
+}
+
+.spinner .arrow.outer-12 {
+  animation-delay: -0.6666666667s;
+}
+
+.spinner .arrow.outer-13 {
+  animation-delay: -0.7222222222s;
+}
+
+.spinner .arrow.outer-14 {
+  animation-delay: -0.7777777778s;
+}
+
+.spinner .arrow.outer-15 {
+  animation-delay: -0.8333333333s;
+}
+
+.spinner .arrow.outer-16 {
+  animation-delay: -0.8888888889s;
+}
+
+.spinner .arrow.outer-17 {
+  animation-delay: -0.9444444444s;
+}
+
+.spinner .arrow.outer-18 {
+  animation-delay: -1s;
+}
+
+.spinner .arrow.inner-1 {
+  animation-delay: -0.1666666667s;
+}
+
+.spinner .arrow.inner-2 {
+  animation-delay: -0.3333333333s;
+}
+
+.spinner .arrow.inner-3 {
+  animation-delay: -0.5s;
+}
+
+.spinner .arrow.inner-4 {
+  animation-delay: -0.6666666667s;
+}
+
+.spinner .arrow.inner-5 {
+  animation-delay: -0.8333333333s;
+}
+
+.spinner .arrow.inner-6 {
+  animation-delay: -1s;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0.1;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
