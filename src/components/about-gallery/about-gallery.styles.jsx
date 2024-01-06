@@ -11,19 +11,24 @@ export const AboutGalleryContainer = styled(Container)`
   display: flex;
   justify-content: space-between;
 
-  svg:not(:last-child) {
+  img {
+    width: 30.33%;
+    height: 272px;
+  }
+
+  img:not(:last-child) {
     margin-right: 5.2rem;
   }
 
-  svg:first-of-type {
+  img:first-of-type {
     margin-top: 12.5rem;
   }
 
-  svg:nth-of-type(2) {
+  img:nth-of-type(2) {
     margin-top: 8rem;
   }
 
-  svg:last-of-type {
+  img:last-of-type {
     margin-top: 3.447rem;
   }
 `;

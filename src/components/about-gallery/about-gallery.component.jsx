@@ -1,7 +1,7 @@
 // Images
-import LukmanGallery1 from "../../assets/images/lukman-gallery-1.svg?react";
-import LukmanGallery2 from "../../assets/images/lukman-gallery-2.svg?react";
-import LukmanGallery3 from "../../assets/images/lukman-gallery-3.svg?react";
+import lukmanGallery1 from "../../assets/images/lukman-gallery-1.png";
+import lukmanGallery2 from "../../assets/images/lukman-gallery-2.png";
+import lukmanGallery3 from "../../assets/images/lukman-gallery-3.png";
 
 // Styles
 import { AboutGalleryContainer } from "./about-gallery.styles";
@@ -9,9 +9,9 @@ import { AboutGalleryContainer } from "./about-gallery.styles";
 export const AboutGallery = () => {
   return (
     <AboutGalleryContainer>
-      <LukmanGallery1 aria-label="Lukman Gallery 1" />
-      <LukmanGallery2 aria-label="Lukman Gallery 2" />
-      <LukmanGallery3 aria-label="Lukman Gallery 3" />
+      <img src={lukmanGallery1} alt="Lukman Gallery 1" />
+      <img src={lukmanGallery2} alt="Lukman Gallery 2" />
+      <img src={lukmanGallery3} alt="Lukman Gallery 3" />
     </AboutGalleryContainer>
   );
 };
