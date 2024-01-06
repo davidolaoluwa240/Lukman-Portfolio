@@ -1,10 +1,10 @@
 // Styles
 import { BookshelfBooksCardWrapper } from "./bookshelf-books-card.styles";
 
-export const BookshelfBooksCard = ({ img: Img, name }) => {
+export const BookshelfBooksCard = ({ img, name }) => {
   return (
     <BookshelfBooksCardWrapper>
-      <Img aria-label={name} />
+      <img src={img} alt={name} />
     </BookshelfBooksCardWrapper>
   );
 };
