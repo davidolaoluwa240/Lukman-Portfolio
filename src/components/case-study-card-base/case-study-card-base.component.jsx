@@ -8,10 +8,10 @@ import {
 } from "./case-study-card-base.styles";
 
 // Images
-import CaseStudyCardBongalo from "../../assets/images/case-study-card-bongalo.svg?react";
-import CaseStudyCardFreterium from "../../assets/images/case-study-card-freterium.svg?react";
-import CaseStudyCardAsusu from "../../assets/images/case-study-card-asusu.svg?react";
-import CaseStudyCardSwimmo from "../../assets/images/case-study-card-swimmo.svg?react";
+import caseStudyCardBongalo from "../../assets/images/case-study-card-bongalo.png";
+import caseStudyCardFreterium from "../../assets/images/case-study-card-freterium.png";
+import caseStudyCardAsusu from "../../assets/images/case-study-card-asusu.png";
+import caseStudyCardSwimmo from "../../assets/images/case-study-card-swimmo.png";
 
 // Static Data
 export const CASE_STUDY_ITEMS = [
@@ -22,7 +22,7 @@ export const CASE_STUDY_ITEMS = [
         id: "bongalo",
         title: "Catalyzing Success: A Redesign of Bongalo Platform",
         role: "Product design, Prototyping",
-        img: CaseStudyCardBongalo,
+        img: caseStudyCardBongalo,
         bgColor: "#D5EBFD",
         to: "/case-study",
       },
@@ -30,7 +30,7 @@ export const CASE_STUDY_ITEMS = [
         id: "asusu",
         title: "Digital Banking for Credit Unions",
         role: "Product design, Prototyping",
-        img: CaseStudyCardAsusu,
+        img: caseStudyCardAsusu,
         bgColor: "#A6CAFF",
         to: "/case-study",
       },
@@ -45,7 +45,7 @@ export const CASE_STUDY_ITEMS = [
         title:
           "Revamping Onboarding: A User-Centric UX Approach to Elevate the First User Experience",
         role: "UX design, Research & Workshop",
-        img: CaseStudyCardFreterium,
+        img: caseStudyCardFreterium,
         bgColor: "#CDF1FF",
         to: "/case-study",
       },
@@ -54,7 +54,7 @@ export const CASE_STUDY_ITEMS = [
         title:
           "Diving into Fitness: Strategies for Swimming Consistency and Success",
         role: "Product design, Prototyping",
-        img: CaseStudyCardSwimmo,
+        img: caseStudyCardSwimmo,
         bgColor: "#C5D0FF",
         to: "/case-study",
       },

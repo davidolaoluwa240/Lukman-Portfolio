@@ -6,7 +6,7 @@ import {
 } from "./case-study-card.styles";
 
 export const CaseStudyCard = ({
-  img: CaseStudyCardImage,
+  img,
   role,
   title,
   bgColor,
@@ -17,7 +17,7 @@ export const CaseStudyCard = ({
   return (
     <CaseStudyCardWrapper $background={bgColor} {...restProps}>
       <CaseStudyCardLink to={`${to}/${id}`} />
-      <CaseStudyCardImage aria-label={title} />
+      <img src={img} alt={title} />
       <CaseStudyCardCaption>
         <p>{role}</p>
         <p>{title}</p>
