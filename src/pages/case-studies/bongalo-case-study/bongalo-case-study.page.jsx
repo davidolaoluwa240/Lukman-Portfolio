@@ -1,5 +1,5 @@
-// Hooks
-import { useStaticData } from "../../../hooks";
+// Data
+import { CASE_STUDY_ITEMS as caseStudyItems } from "../../../components/case-study-card-base/case-study-card-base.component";
 
 // Components
 import { Fragment } from "react";
@@ -61,20 +61,27 @@ import BongaloMoreScreen2 from "../../../assets/images/bongalo-more-screen2.svg?
 import BongaloMoreScreen3 from "../../../assets/images/bongalo-more-screen3.svg?react";
 import BongaloMoreScreen4 from "../../../assets/images/bongalo-more-screen4.svg?react";
 import BongaloMoreScreen5 from "../../../assets/images/bongalo-more-screen5.svg?react";
+import CaseStudyHeroBongalo from "../../../assets/images/case-study-hero-bongalo.svg?react";
 
 // Styles
 import "swiper/css";
 
-const BongaloCaseStudy = () => {
-  const {
-    CASE_STUDY_DETAIL_HERO_ITEMS: caseStudyDetailHeroItems,
-    CASE_STUDY_ITEMS: caseStudyItems,
-  } = useStaticData();
+// Static Data
+const bongaloHeroItem = {
+  title: "Redesigning digital marketplace for African travel accommodation",
+  expertise: "Product design, UX",
+  platforms: "Responsive Web App",
+  role: "Design lead",
+  year: "2021—2022",
+  img: CaseStudyHeroBongalo,
+  to: "https://www.bongalo.com",
+};
 
+const BongaloCaseStudy = () => {
   return (
     <Fragment>
       <header>
-        <CaseStudyDetailHero {...caseStudyDetailHeroItems.bongalo} />
+        <CaseStudyDetailHero {...bongaloHeroItem} />
       </header>
 
       <CaseStudyDetail>

@@ -1,5 +1,5 @@
-// Hooks
-import { useStaticData } from "../../../hooks";
+// Data
+import { CASE_STUDY_ITEMS as caseStudyItems } from "../../../components/case-study-card-base/case-study-card-base.component";
 
 // Components
 import { Fragment } from "react";
@@ -46,19 +46,26 @@ import AsusuPolishedDesign8 from "../../../assets/images/asusu-polished-design8.
 import AsusuPolishedDesign9 from "../../../assets/images/asusu-polished-design9.svg?react";
 import AsusuPolishedDesign10 from "../../../assets/images/asusu-polished-design10.svg?react";
 import AsusuPolishedDesign11 from "../../../assets/images/asusu-polished-design11.svg?react";
+import CaseStudyHeroAsusu from "../../../assets/images/case-study-hero-asusu.svg?react";
 
 // Styles
 import "swiper/css";
 
-const AsusuCaseStudy = () => {
-  const {
-    CASE_STUDY_DETAIL_HERO_ITEMS: caseStudyDetailHeroItems,
-    CASE_STUDY_ITEMS: caseStudyItems,
-  } = useStaticData();
+// Static Data
+const asusuHeroItem = {
+  title: "Digital Banking for Credit Unions",
+  expertise: "Product design, Research & Sales",
+  platforms: "Responsive Web App",
+  role: "Product Designer",
+  img: CaseStudyHeroAsusu,
+  year: "2019",
+  to: "https://tryasusu.com/home",
+};
 
+const AsusuCaseStudy = () => {
   return (
     <Fragment>
-      <CaseStudyDetailHero {...caseStudyDetailHeroItems.asusu} />
+      <CaseStudyDetailHero {...asusuHeroItem} />
 
       <CaseStudyDetail>
         <CaseStudyDetailContainer as="section">

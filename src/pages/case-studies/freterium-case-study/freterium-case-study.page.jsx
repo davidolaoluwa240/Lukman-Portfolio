@@ -1,5 +1,5 @@
-// Hooks
-import { useStaticData } from "../../../hooks";
+// Data
+import { CASE_STUDY_ITEMS as caseStudyItems } from "../../../components/case-study-card-base/case-study-card-base.component";
 
 // Components
 import { Fragment } from "react";
@@ -39,6 +39,7 @@ import FreteriumLogisticScreen16 from "../../../assets/images/freterium-logistic
 import FreteriumLogisticScreen17 from "../../../assets/images/freterium-logistic-screen17.svg?react";
 import FreteriumLogisticScreen18 from "../../../assets/images/freterium-logistic-screen18.svg?react";
 import FreteriumLogisticScreen19 from "../../../assets/images/freterium-logistic-screen19.svg?react";
+import CaseStudyHeroFreterium from "../../../assets/images/case-study-hero-freterium.svg?react";
 
 // Styles
 import "swiper/css";
@@ -48,16 +49,23 @@ import {
   FreteriumAvgMetrics,
 } from "./freterium-case-study.styles";
 
-const FreteriumCaseStudy = () => {
-  const {
-    CASE_STUDY_DETAIL_HERO_ITEMS: caseStudyDetailHeroItems,
-    CASE_STUDY_ITEMS: caseStudyItems,
-  } = useStaticData();
+// Static Data
+const freteriumHeroItem = {
+  title:
+    "Revamping Onboarding: A User-Centric UX Approach to Elevate the First User Experience",
+  expertise: "UX design, Research & Workshop",
+  platforms: "Responsive Web App",
+  role: "Senior UX Designer",
+  img: CaseStudyHeroFreterium,
+  year: "2022—2023",
+  to: "https://www.freterium.com/",
+};
 
+const FreteriumCaseStudy = () => {
   return (
     <Fragment>
       <header>
-        <CaseStudyDetailHero {...caseStudyDetailHeroItems.freterium} />
+        <CaseStudyDetailHero {...freteriumHeroItem} />
       </header>
 
       <CaseStudyDetail>

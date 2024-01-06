@@ -1,5 +1,5 @@
-// Hooks
-import { useStaticData } from "../../../hooks";
+// Data
+import { CASE_STUDY_ITEMS as caseStudyItems } from "../../../components/case-study-card-base/case-study-card-base.component";
 
 // Components
 import { Fragment } from "react";
@@ -24,17 +24,23 @@ import SwimmoPolishedDesign from "../../../assets/images/swimmo-polished-design.
 import SwimmoPolishedDesign2 from "../../../assets/images/swimmo-polished-design2.svg?react";
 import SwimmoPolishedDesign3 from "../../../assets/images/swimmo-polished-design3.svg?react";
 import SwimmoPolishedDesign4 from "../../../assets/images/swimmo-polished-design4.svg?react";
+import CaseStudyHeroSwimmo from "../../../assets/images/case-study-hero-swimmo.svg?react";
+
+// Static Data
+const swimmoHeroItem = {
+  title: "Diving into Fitness: Strategies for Swimming Consistency and Success",
+  expertise: "Product design",
+  platforms: "Mobile app and wearable",
+  role: "Product Designer",
+  img: CaseStudyHeroSwimmo,
+  year: "2022",
+  to: "https://www.swimmo.com/",
+};
 
 const SwimmoCaseStudy = () => {
-  const {
-    CASE_STUDY_DETAIL_HERO_ITEMS: caseStudyDetailHeroItems,
-    CASE_STUDY_ITEMS: caseStudyItems,
-    DESIGN_PROCESS_ITEMS: designProcessItems,
-  } = useStaticData();
-
   return (
     <Fragment>
-      <CaseStudyDetailHero {...caseStudyDetailHeroItems.swimmo} />
+      <CaseStudyDetailHero {...swimmoHeroItem} />
       <CaseStudyDetail>
         <CaseStudyDetailContainer className="mt-xl" as="section">
           <h2>Introduction</h2>
