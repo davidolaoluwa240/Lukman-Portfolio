@@ -20,33 +20,36 @@ import AsusuUserFlow from "../../../assets/images/asusu-user-flow.svg?react";
 import AsusuDesign1 from "../../../assets/images/asusu-design-1.svg?react";
 import AsusuDesign2 from "../../../assets/images/asusu-design-2.svg?react";
 import AsusuResearchField from "../../../assets/images/asusu-research-field.svg?react";
-import AsusuPolishedDesignOther1 from "../../../assets/images/asusu-polished-design-other1.svg?react";
-import AsusuPolishedDesignOther2 from "../../../assets/images/asusu-polished-design-other2.svg?react";
-import AsusuPolishedDesignOther3 from "../../../assets/images/asusu-polished-design-other3.svg?react";
-import AsusuPolishedDesignOther4 from "../../../assets/images/asusu-polished-design-other4.svg?react";
-import AsusuPolishedDesignOther5 from "../../../assets/images/asusu-polished-design-other5.svg?react";
-import AsusuPolishedDesignOther6 from "../../../assets/images/asusu-polished-design-other6.svg?react";
-import AsusuPolishedDesignOther7 from "../../../assets/images/asusu-polished-design-other7.svg?react";
-import AsusuPolishedDesignOther8 from "../../../assets/images/asusu-polished-design-other8.svg?react";
-import AsusuPolishedDesignOther9 from "../../../assets/images/asusu-polished-design-other9.svg?react";
-import AsusuPolishedDesignOther10 from "../../../assets/images/asusu-polished-design-other10.svg?react";
-import AsusuPolishedDesignOther11 from "../../../assets/images/asusu-polished-design-other11.svg?react";
-import AsusuPolishedDesignOther12 from "../../../assets/images/asusu-polished-design-other12.svg?react";
-import AsusuPolishedDesignOther13 from "../../../assets/images/asusu-polished-design-other13.svg?react";
-import AsusuPolishedDesignOther14 from "../../../assets/images/asusu-polished-design-other14.svg?react";
-import AsusuPolishedDesignOther15 from "../../../assets/images/asusu-polished-design-other14.svg?react";
-import AsusuPolishedDesign1 from "../../../assets/images/asusu-polished-design1.svg?react";
-import AsusuPolishedDesign2 from "../../../assets/images/asusu-polished-design2.svg?react";
-import AsusuPolishedDesign3 from "../../../assets/images/asusu-polished-design3.svg?react";
-import AsusuPolishedDesign4 from "../../../assets/images/asusu-polished-design4.svg?react";
-import AsusuPolishedDesign5 from "../../../assets/images/asusu-polished-design5.svg?react";
-import AsusuPolishedDesign6 from "../../../assets/images/asusu-polished-design6.svg?react";
-import AsusuPolishedDesign7 from "../../../assets/images/asusu-polished-design7.svg?react";
-import AsusuPolishedDesign8 from "../../../assets/images/asusu-polished-design8.svg?react";
-import AsusuPolishedDesign9 from "../../../assets/images/asusu-polished-design9.svg?react";
-import AsusuPolishedDesign10 from "../../../assets/images/asusu-polished-design10.svg?react";
-import AsusuPolishedDesign11 from "../../../assets/images/asusu-polished-design11.svg?react";
-import CaseStudyHeroAsusu from "../../../assets/images/case-study-hero-asusu.svg?react";
+
+import asusuPolishedDesignOther1 from "../../../assets/images/asusu-polished-design-other1.png";
+import asusuPolishedDesignOther2 from "../../../assets/images/asusu-polished-design-other2.png";
+import asusuPolishedDesignOther3 from "../../../assets/images/asusu-polished-design-other3.png";
+import asusuPolishedDesignOther4 from "../../../assets/images/asusu-polished-design-other4.png";
+import asusuPolishedDesignOther5 from "../../../assets/images/asusu-polished-design-other5.png";
+import asusuPolishedDesignOther6 from "../../../assets/images/asusu-polished-design-other6.png";
+import asusuPolishedDesignOther7 from "../../../assets/images/asusu-polished-design-other7.png";
+import asusuPolishedDesignOther8 from "../../../assets/images/asusu-polished-design-other8.png";
+import asusuPolishedDesignOther9 from "../../../assets/images/asusu-polished-design-other9.png";
+import asusuPolishedDesignOther10 from "../../../assets/images/asusu-polished-design-other10.png";
+import asusuPolishedDesignOther11 from "../../../assets/images/asusu-polished-design-other11.png";
+import asusuPolishedDesignOther12 from "../../../assets/images/asusu-polished-design-other12.png";
+import asusuPolishedDesignOther13 from "../../../assets/images/asusu-polished-design-other13.png";
+import asusuPolishedDesignOther14 from "../../../assets/images/asusu-polished-design-other14.png";
+import asusuPolishedDesignOther15 from "../../../assets/images/asusu-polished-design-other14.png";
+
+import asusuPolishedDesign1 from "../../../assets/images/asusu-polished-design1.png";
+import asusuPolishedDesign2 from "../../../assets/images/asusu-polished-design2.png";
+import asusuPolishedDesign3 from "../../../assets/images/asusu-polished-design3.png";
+import asusuPolishedDesign4 from "../../../assets/images/asusu-polished-design4.png";
+import asusuPolishedDesign5 from "../../../assets/images/asusu-polished-design5.png";
+import asusuPolishedDesign6 from "../../../assets/images/asusu-polished-design6.png";
+import asusuPolishedDesign7 from "../../../assets/images/asusu-polished-design7.png";
+import asusuPolishedDesign8 from "../../../assets/images/asusu-polished-design8.png";
+import asusuPolishedDesign9 from "../../../assets/images/asusu-polished-design9.png";
+import asusuPolishedDesign10 from "../../../assets/images/asusu-polished-design10.png";
+import asusuPolishedDesign11 from "../../../assets/images/asusu-polished-design11.png";
+
+import caseStudyHeroAsusu from "../../../assets/images/case-study-hero-asusu.png";
 
 // Styles
 import "swiper/css";
@@ -57,7 +60,7 @@ const asusuHeroItem = {
   expertise: "Product design, Research & Sales",
   platforms: "Responsive Web App",
   role: "Product Designer",
-  img: CaseStudyHeroAsusu,
+  img: caseStudyHeroAsusu,
   year: "2019",
   to: "https://tryasusu.com/home",
 };
@@ -544,37 +547,43 @@ const AsusuCaseStudy = () => {
               style={{ height: "773.071px" }}
             >
               <SwiperSlide>
-                <AsusuPolishedDesign1 />
+                <img src={asusuPolishedDesign1} alt="Asusu Polished Design 1" />
               </SwiperSlide>
               <SwiperSlide>
-                <AsusuPolishedDesign2 />
+                <img src={asusuPolishedDesign2} alt="Asusu Polished Design 2" />
               </SwiperSlide>
               <SwiperSlide>
-                <AsusuPolishedDesign3 />
+                <img src={asusuPolishedDesign3} alt="Asusu Polished Design 3" />
               </SwiperSlide>
               <SwiperSlide>
-                <AsusuPolishedDesign4 />
+                <img src={asusuPolishedDesign4} alt="Asusu Polished Design 4" />
               </SwiperSlide>
               <SwiperSlide>
-                <AsusuPolishedDesign5 />
+                <img src={asusuPolishedDesign5} alt="Asusu Polished Design 5" />
               </SwiperSlide>
               <SwiperSlide>
-                <AsusuPolishedDesign6 />
+                <img src={asusuPolishedDesign6} alt="Asusu Polished Design 6" />
               </SwiperSlide>
               <SwiperSlide>
-                <AsusuPolishedDesign7 />
+                <img src={asusuPolishedDesign7} alt="Asusu Polished Design 7" />
               </SwiperSlide>
               <SwiperSlide>
-                <AsusuPolishedDesign8 />
+                <img src={asusuPolishedDesign8} alt="Asusu Polished Design 8" />
               </SwiperSlide>
               <SwiperSlide>
-                <AsusuPolishedDesign9 />
+                <img src={asusuPolishedDesign9} alt="Asusu Polished Design 9" />
               </SwiperSlide>
               <SwiperSlide>
-                <AsusuPolishedDesign10 />
+                <img
+                  src={asusuPolishedDesign10}
+                  alt="Asusu Polished Design 10"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <AsusuPolishedDesign11 />
+                <img
+                  src={asusuPolishedDesign11}
+                  alt="Asusu Polished Design 11"
+                />
               </SwiperSlide>
             </Swiper>
           </CaseStudyDetailContainer>
@@ -601,49 +610,94 @@ const AsusuCaseStudy = () => {
               style={{ height: "774.993px" }}
             >
               <SwiperSlide>
-                <AsusuPolishedDesignOther1 />
+                <img
+                  src={asusuPolishedDesignOther1}
+                  alt="Asusu Polished Design Other 1"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <AsusuPolishedDesignOther2 />
+                <img
+                  src={asusuPolishedDesignOther2}
+                  alt="Asusu Polished Design Other 2"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <AsusuPolishedDesignOther3 />
+                <img
+                  src={asusuPolishedDesignOther3}
+                  alt="Asusu Polished Design Other 3"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <AsusuPolishedDesignOther4 />
+                <img
+                  src={asusuPolishedDesignOther4}
+                  alt="Asusu Polished Design Other 4"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <AsusuPolishedDesignOther5 />
+                <img
+                  src={asusuPolishedDesignOther5}
+                  alt="Asusu Polished Design Other 5"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <AsusuPolishedDesignOther6 />
+                <img
+                  src={asusuPolishedDesignOther6}
+                  alt="Asusu Polished Design Other 6"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <AsusuPolishedDesignOther7 />
+                <img
+                  src={asusuPolishedDesignOther7}
+                  alt="Asusu Polished Design Other 7"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <AsusuPolishedDesignOther8 />
+                <img
+                  src={asusuPolishedDesignOther8}
+                  alt="Asusu Polished Design Other 8"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <AsusuPolishedDesignOther9 />
+                <img
+                  src={asusuPolishedDesignOther9}
+                  alt="Asusu Polished Design Other 9"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <AsusuPolishedDesignOther10 />
+                <img
+                  src={asusuPolishedDesignOther10}
+                  alt="Asusu Polished Design Other 10"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <AsusuPolishedDesignOther11 />
+                <img
+                  src={asusuPolishedDesignOther11}
+                  alt="Asusu Polished Design Other 11"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <AsusuPolishedDesignOther12 />
+                <img
+                  src={asusuPolishedDesignOther12}
+                  alt="Asusu Polished Design Other 12"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <AsusuPolishedDesignOther13 />
+                <img
+                  src={asusuPolishedDesignOther13}
+                  alt="Asusu Polished Design Other 13"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <AsusuPolishedDesignOther14 />
+                <img
+                  src={asusuPolishedDesignOther14}
+                  alt="Asusu Polished Design Other 14"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <AsusuPolishedDesignOther15 />
+                <img
+                  src={asusuPolishedDesignOther15}
+                  alt="Asusu Polished Design Other 15"
+                />
               </SwiperSlide>
             </Swiper>
           </CaseStudyDetailContainer>

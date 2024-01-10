@@ -14,54 +14,58 @@ import {
 import { FreteriumUserFlowChartWrapper as BongaloUserFlowChartWrapper } from "../freterium-case-study/freterium-case-study.styles";
 
 // Images
-import BongaloPreListing1 from "../../../assets/images/bongalo-pre-listing1.svg?react";
-import BongaloPreListing2 from "../../../assets/images/bongalo-pre-listing2.svg?react";
-import BongaloPreListing3 from "../../../assets/images/bongalo-pre-listing3.svg?react";
-import BongaloPreListing4 from "../../../assets/images/bongalo-pre-listing4.svg?react";
-import BongaloPreListing5 from "../../../assets/images/bongalo-pre-listing5.svg?react";
-import BongaloPreListing6 from "../../../assets/images/bongalo-pre-listing6.svg?react";
-import BongaloPreListing7 from "../../../assets/images/bongalo-pre-listing7.svg?react";
-import BongaloPreListing8 from "../../../assets/images/bongalo-pre-listing8.svg?react";
-import BongaloPreListing9 from "../../../assets/images/bongalo-pre-listing9.svg?react";
-import BongaloPreListing10 from "../../../assets/images/bongalo-pre-listing10.svg?react";
-import BongaloPreListing11 from "../../../assets/images/bongalo-pre-listing11.svg?react";
-import BongaloPreListing12 from "../../../assets/images/bongalo-pre-listing12.svg?react";
-import BongaloPreListing13 from "../../../assets/images/bongalo-pre-listing13.svg?react";
-import BongaloPreListing14 from "../../../assets/images/bongalo-pre-listing14.svg?react";
-import BongaloPreListing15 from "../../../assets/images/bongalo-pre-listing15.svg?react";
-import BongaloPreListing16 from "../../../assets/images/bongalo-pre-listing16.svg?react";
-import BongaloPreListing17 from "../../../assets/images/bongalo-pre-listing17.svg?react";
-import BongaloPreListing18 from "../../../assets/images/bongalo-pre-listing18.svg?react";
-import BongaloCurListing1 from "../../../assets/images/bongalo-cur-listing1.svg?react";
-import BongaloCurListing2 from "../../../assets/images/bongalo-cur-listing2.svg?react";
-import BongaloCurListing3 from "../../../assets/images/bongalo-cur-listing3.svg?react";
-import BongaloCurListing4 from "../../../assets/images/bongalo-cur-listing4.svg?react";
-import BongaloCurListing5 from "../../../assets/images/bongalo-cur-listing5.svg?react";
-import BongaloCurListing6 from "../../../assets/images/bongalo-cur-listing6.svg?react";
-import BongaloCurListing7 from "../../../assets/images/bongalo-cur-listing7.svg?react";
-import BongaloCurListing8 from "../../../assets/images/bongalo-cur-listing8.svg?react";
-import BongaloCurListing9 from "../../../assets/images/bongalo-cur-listing9.svg?react";
-import BongaloCurListing10 from "../../../assets/images/bongalo-cur-listing10.svg?react";
-import BongaloCurListing11 from "../../../assets/images/bongalo-cur-listing11.svg?react";
-import BongaloCurListing12 from "../../../assets/images/bongalo-cur-listing12.svg?react";
-import BongaloCurListing13 from "../../../assets/images/bongalo-cur-listing13.svg?react";
-import BongaloCurListing14 from "../../../assets/images/bongalo-cur-listing14.svg?react";
-import BongaloCurListing15 from "../../../assets/images/bongalo-cur-listing15.svg?react";
-import BongaloCurListing16 from "../../../assets/images/bongalo-cur-listing16.svg?react";
-import BongaloCurListing17 from "../../../assets/images/bongalo-cur-listing17.svg?react";
-import BongaloCurListing18 from "../../../assets/images/bongalo-cur-listing18.svg?react";
-import BongaloCurListing19 from "../../../assets/images/bongalo-cur-listing19.svg?react";
-import BongaloCurListing20 from "../../../assets/images/bongalo-cur-listing20.svg?react";
-import BongaloCurListing21 from "../../../assets/images/bongalo-cur-listing21.svg?react";
-import BongaloCurListing22 from "../../../assets/images/bongalo-cur-listing22.svg?react";
+import bongaloPreListing1 from "../../../assets/images/bongalo-pre-listing1.png";
+import bongaloPreListing2 from "../../../assets/images/bongalo-pre-listing2.png";
+import bongaloPreListing3 from "../../../assets/images/bongalo-pre-listing3.png";
+import bongaloPreListing4 from "../../../assets/images/bongalo-pre-listing4.png";
+import bongaloPreListing5 from "../../../assets/images/bongalo-pre-listing5.png";
+import bongaloPreListing6 from "../../../assets/images/bongalo-pre-listing6.png";
+import bongaloPreListing7 from "../../../assets/images/bongalo-pre-listing7.png";
+import bongaloPreListing8 from "../../../assets/images/bongalo-pre-listing8.png";
+import bongaloPreListing9 from "../../../assets/images/bongalo-pre-listing9.png";
+import bongaloPreListing10 from "../../../assets/images/bongalo-pre-listing10.png";
+import bongaloPreListing11 from "../../../assets/images/bongalo-pre-listing11.png";
+import bongaloPreListing12 from "../../../assets/images/bongalo-pre-listing12.png";
+import bongaloPreListing13 from "../../../assets/images/bongalo-pre-listing13.png";
+import bongaloPreListing14 from "../../../assets/images/bongalo-pre-listing14.png";
+import bongaloPreListing15 from "../../../assets/images/bongalo-pre-listing15.png";
+import bongaloPreListing16 from "../../../assets/images/bongalo-pre-listing16.png";
+import bongaloPreListing17 from "../../../assets/images/bongalo-pre-listing17.png";
+import bongaloPreListing18 from "../../../assets/images/bongalo-pre-listing18.png";
+
+import bongaloCurListing1 from "../../../assets/images/bongalo-cur-listing1.png";
+import bongaloCurListing2 from "../../../assets/images/bongalo-cur-listing2.png";
+import bongaloCurListing3 from "../../../assets/images/bongalo-cur-listing3.png";
+import bongaloCurListing4 from "../../../assets/images/bongalo-cur-listing4.png";
+import bongaloCurListing5 from "../../../assets/images/bongalo-cur-listing5.png";
+import bongaloCurListing6 from "../../../assets/images/bongalo-cur-listing6.png";
+import bongaloCurListing7 from "../../../assets/images/bongalo-cur-listing7.png";
+import bongaloCurListing8 from "../../../assets/images/bongalo-cur-listing8.png";
+import bongaloCurListing9 from "../../../assets/images/bongalo-cur-listing9.png";
+import bongaloCurListing10 from "../../../assets/images/bongalo-cur-listing10.png";
+import bongaloCurListing11 from "../../../assets/images/bongalo-cur-listing11.png";
+import bongaloCurListing12 from "../../../assets/images/bongalo-cur-listing12.png";
+import bongaloCurListing13 from "../../../assets/images/bongalo-cur-listing13.png";
+import bongaloCurListing14 from "../../../assets/images/bongalo-cur-listing14.png";
+import bongaloCurListing15 from "../../../assets/images/bongalo-cur-listing15.png";
+import bongaloCurListing16 from "../../../assets/images/bongalo-cur-listing16.png";
+import bongaloCurListing17 from "../../../assets/images/bongalo-cur-listing17.png";
+import bongaloCurListing18 from "../../../assets/images/bongalo-cur-listing18.png";
+import bongaloCurListing19 from "../../../assets/images/bongalo-cur-listing19.png";
+import bongaloCurListing20 from "../../../assets/images/bongalo-cur-listing20.png";
+import bongaloCurListing21 from "../../../assets/images/bongalo-cur-listing21.png";
+import bongaloCurListing22 from "../../../assets/images/bongalo-cur-listing22.png";
+
 import BongaloUserFlow1 from "../../../assets/images/bongalo-user-flow1.svg?react";
 import BongaloUserFlow2 from "../../../assets/images/bongalo-user-flow2.svg?react";
-import BongaloMoreScreen1 from "../../../assets/images/bongalo-more-screen1.svg?react";
-import BongaloMoreScreen2 from "../../../assets/images/bongalo-more-screen2.svg?react";
-import BongaloMoreScreen3 from "../../../assets/images/bongalo-more-screen3.svg?react";
-import BongaloMoreScreen4 from "../../../assets/images/bongalo-more-screen4.svg?react";
-import BongaloMoreScreen5 from "../../../assets/images/bongalo-more-screen5.svg?react";
-import CaseStudyHeroBongalo from "../../../assets/images/case-study-hero-bongalo.svg?react";
+
+import bongaloMoreScreen1 from "../../../assets/images/bongalo-more-screen1.png";
+import bongaloMoreScreen2 from "../../../assets/images/bongalo-more-screen2.png";
+import bongaloMoreScreen3 from "../../../assets/images/bongalo-more-screen3.png";
+import bongaloMoreScreen4 from "../../../assets/images/bongalo-more-screen4.png";
+import bongaloMoreScreen5 from "../../../assets/images/bongalo-more-screen5.png";
+
+import caseStudyHeroBongalo from "../../../assets/images/case-study-hero-bongalo.png";
 
 // Styles
 import "swiper/css";
@@ -73,7 +77,7 @@ const bongaloHeroItem = {
   platforms: "Responsive Web App",
   role: "Design lead",
   year: "2021—2022",
-  img: CaseStudyHeroBongalo,
+  img: caseStudyHeroBongalo,
   to: "https://www.bongalo.com",
 };
 
@@ -280,58 +284,112 @@ const BongaloCaseStudy = () => {
               style={{ height: "350px" }}
             >
               <SwiperSlide>
-                <BongaloPreListing1 />
+                <img
+                  src={bongaloPreListing1}
+                  alt="Bongalo Previous Listing Design Step 1"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloPreListing2 />
+                <img
+                  src={bongaloPreListing2}
+                  alt="Bongalo Previous Listing Design Step 2"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloPreListing3 />
+                <img
+                  src={bongaloPreListing3}
+                  alt="Bongalo Previous Listing Design Step 3"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloPreListing4 />
+                <img
+                  src={bongaloPreListing4}
+                  alt="Bongalo Previous Listing Design Step 4"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloPreListing5 />
+                <img
+                  src={bongaloPreListing5}
+                  alt="Bongalo Previous Listing Design Step 5"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloPreListing6 />
+                <img
+                  src={bongaloPreListing6}
+                  alt="Bongalo Previous Listing Design Step 6"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloPreListing7 />
+                <img
+                  src={bongaloPreListing7}
+                  alt="Bongalo Previous Listing Design Step 7"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloPreListing8 />
+                <img
+                  src={bongaloPreListing8}
+                  alt="Bongalo Previous Listing Design Step 8"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloPreListing9 />
+                <img
+                  src={bongaloPreListing9}
+                  alt="Bongalo Previous Listing Design Step 9"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloPreListing10 />
+                <img
+                  src={bongaloPreListing10}
+                  alt="Bongalo Previous Listing Design Step 10"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloPreListing11 />
+                <img
+                  src={bongaloPreListing11}
+                  alt="Bongalo Previous Listing Design Step 11"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloPreListing12 />
+                <img
+                  src={bongaloPreListing12}
+                  alt="Bongalo Previous Listing Design Step 12"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloPreListing13 />
+                <img
+                  src={bongaloPreListing13}
+                  alt="Bongalo Previous Listing Design Step 13"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloPreListing14 />
+                <img
+                  src={bongaloPreListing14}
+                  alt="Bongalo Previous Listing Design Step 14"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloPreListing15 />
+                <img
+                  src={bongaloPreListing15}
+                  alt="Bongalo Previous Listing Design Step 15"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloPreListing16 />
+                <img
+                  src={bongaloPreListing16}
+                  alt="Bongalo Previous Listing Design Step 16"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloPreListing17 />
+                <img
+                  src={bongaloPreListing17}
+                  alt="Bongalo Previous Listing Design Step 17"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloPreListing18 />
+                <img
+                  src={bongaloPreListing18}
+                  alt="Bongalo Previous Listing Design Step 18"
+                />
               </SwiperSlide>
             </Swiper>
           </CaseStudyDetailContainer>
@@ -404,70 +462,136 @@ const BongaloCaseStudy = () => {
               style={{ height: "590px" }}
             >
               <SwiperSlide>
-                <BongaloCurListing1 />
+                <img
+                  src={bongaloCurListing1}
+                  alt="Bongalo current Listing Design Step 1"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloCurListing2 />
+                <img
+                  src={bongaloCurListing2}
+                  alt="Bongalo current Listing Design Step 2"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloCurListing3 />
+                <img
+                  src={bongaloCurListing3}
+                  alt="Bongalo current Listing Design Step 3"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloCurListing4 />
+                <img
+                  src={bongaloCurListing4}
+                  alt="Bongalo current Listing Design Step 4"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloCurListing5 />
+                <img
+                  src={bongaloCurListing5}
+                  alt="Bongalo current Listing Design Step 5"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloCurListing6 />
+                <img
+                  src={bongaloCurListing6}
+                  alt="Bongalo current Listing Design Step 6"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloCurListing7 />
+                <img
+                  src={bongaloCurListing7}
+                  alt="Bongalo current Listing Design Step 7"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloCurListing8 />
+                <img
+                  src={bongaloCurListing8}
+                  alt="Bongalo current Listing Design Step 8"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloCurListing9 />
+                <img
+                  src={bongaloCurListing9}
+                  alt="Bongalo current Listing Design Step 9"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloCurListing10 />
+                <img
+                  src={bongaloCurListing10}
+                  alt="Bongalo current Listing Design Step 10"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloCurListing11 />
+                <img
+                  src={bongaloCurListing11}
+                  alt="Bongalo current Listing Design Step 11"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloCurListing12 style={{ boxShadow: "none" }} />
+                <img
+                  src={bongaloCurListing12}
+                  alt="Bongalo current Listing Design Step 12"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloCurListing13 style={{ boxShadow: "none" }} />
+                <img
+                  src={bongaloCurListing13}
+                  alt="Bongalo current Listing Design Step 13"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloCurListing14 />
+                <img
+                  src={bongaloCurListing14}
+                  alt="Bongalo current Listing Design Step 14"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloCurListing15 />
+                <img
+                  src={bongaloCurListing15}
+                  alt="Bongalo current Listing Design Step 15"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloCurListing16 />
+                <img
+                  src={bongaloCurListing16}
+                  alt="Bongalo current Listing Design Step 16"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloCurListing17 />
+                <img
+                  src={bongaloCurListing17}
+                  alt="Bongalo current Listing Design Step 17"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloCurListing18 />
+                <img
+                  src={bongaloCurListing18}
+                  alt="Bongalo current Listing Design Step 18"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloCurListing19 />
+                <img
+                  src={bongaloCurListing19}
+                  alt="Bongalo current Listing Design Step 19"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloCurListing20 />
+                <img
+                  src={bongaloCurListing20}
+                  alt="Bongalo current Listing Design Step 20"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloCurListing21 />
+                <img
+                  src={bongaloCurListing21}
+                  alt="Bongalo current Listing Design Step 21"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloCurListing22 />
+                <img
+                  src={bongaloCurListing22}
+                  alt="Bongalo current Listing Design Step 22"
+                />
               </SwiperSlide>
             </Swiper>
             <p
@@ -552,19 +676,19 @@ const BongaloCaseStudy = () => {
               style={{ height: "570px" }}
             >
               <SwiperSlide>
-                <BongaloMoreScreen1 />
+                <img src={bongaloMoreScreen1} alt="Bongalo Other Designs 1" />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloMoreScreen2 />
+                <img src={bongaloMoreScreen2} alt="Bongalo Other Designs 2" />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloMoreScreen3 />
+                <img src={bongaloMoreScreen3} alt="Bongalo Other Designs 3" />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloMoreScreen4 />
+                <img src={bongaloMoreScreen4} alt="Bongalo Other Designs 4" />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloMoreScreen5 />
+                <img src={bongaloMoreScreen5} alt="Bongalo Other Designs 5" />
               </SwiperSlide>
             </Swiper>
           </CaseStudyDetailContainer>

@@ -35,7 +35,7 @@ export const CaseStudyDetailHero = ({
               Go to Website
             </CaseStudyDetailHeroLink>
           </CaseStudyDetailHeroLeft>
-          <CaseStudyDetailHeroImage as={img} aria-label={title} />
+          <CaseStudyDetailHeroImage src={img} alt={title} />
         </CaseStudyDetailHeroContainer>
       </CaseStudyDetailHeroWrapper>
 

@@ -44,7 +44,7 @@ export const CaseStudyDetailHeroLink = styled.a`
   font-weight: 800;
 `;
 
-export const CaseStudyDetailHeroImage = styled.svg`
+export const CaseStudyDetailHeroImage = styled.img`
   position: absolute;
   top: 6.6rem;
   right: -43.7%;

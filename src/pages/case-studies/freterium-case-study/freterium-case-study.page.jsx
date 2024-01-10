@@ -20,26 +20,28 @@ import FreteriumAffinityDiagram from "../../../assets/images/freterium-affinity-
 import FreteriumUserFlow from "../../../assets/images/freterium-user-flow.svg?react";
 import FreteriumParticipants from "../../../assets/images/freterium-participants.svg?react";
 import FreteriumAppcues from "../../../assets/images/freterium-appcues.svg?react";
-import FreteriumLogisticScreen1 from "../../../assets/images/freterium-logistic-screen1.svg?react";
-import FreteriumLogisticScreen2 from "../../../assets/images/freterium-logistic-screen2.svg?react";
-import FreteriumLogisticScreen3 from "../../../assets/images/freterium-logistic-screen3.svg?react";
-import FreteriumLogisticScreen4 from "../../../assets/images/freterium-logistic-screen4.svg?react";
-import FreteriumLogisticScreen5 from "../../../assets/images/freterium-logistic-screen5.svg?react";
-import FreteriumLogisticScreen6 from "../../../assets/images/freterium-logistic-screen6.svg?react";
-import FreteriumLogisticScreen7 from "../../../assets/images/freterium-logistic-screen7.svg?react";
-import FreteriumLogisticScreen8 from "../../../assets/images/freterium-logistic-screen8.svg?react";
-import FreteriumLogisticScreen9 from "../../../assets/images/freterium-logistic-screen9.svg?react";
-import FreteriumLogisticScreen10 from "../../../assets/images/freterium-logistic-screen10.svg?react";
-import FreteriumLogisticScreen11 from "../../../assets/images/freterium-logistic-screen11.svg?react";
-import FreteriumLogisticScreen12 from "../../../assets/images/freterium-logistic-screen12.svg?react";
-import FreteriumLogisticScreen13 from "../../../assets/images/freterium-logistic-screen13.svg?react";
-import FreteriumLogisticScreen14 from "../../../assets/images/freterium-logistic-screen14.svg?react";
-import FreteriumLogisticScreen15 from "../../../assets/images/freterium-logistic-screen15.svg?react";
-import FreteriumLogisticScreen16 from "../../../assets/images/freterium-logistic-screen16.svg?react";
-import FreteriumLogisticScreen17 from "../../../assets/images/freterium-logistic-screen17.svg?react";
-import FreteriumLogisticScreen18 from "../../../assets/images/freterium-logistic-screen18.svg?react";
-import FreteriumLogisticScreen19 from "../../../assets/images/freterium-logistic-screen19.svg?react";
-import CaseStudyHeroFreterium from "../../../assets/images/case-study-hero-freterium.svg?react";
+
+import freteriumLogisticScreen1 from "../../../assets/images/freterium-logistic-screen1.png";
+import freteriumLogisticScreen2 from "../../../assets/images/freterium-logistic-screen2.png";
+import freteriumLogisticScreen3 from "../../../assets/images/freterium-logistic-screen3.png";
+import freteriumLogisticScreen4 from "../../../assets/images/freterium-logistic-screen4.png";
+import freteriumLogisticScreen5 from "../../../assets/images/freterium-logistic-screen5.png";
+import freteriumLogisticScreen6 from "../../../assets/images/freterium-logistic-screen6.png";
+import freteriumLogisticScreen7 from "../../../assets/images/freterium-logistic-screen7.png";
+import freteriumLogisticScreen8 from "../../../assets/images/freterium-logistic-screen8.png";
+import freteriumLogisticScreen9 from "../../../assets/images/freterium-logistic-screen9.png";
+import freteriumLogisticScreen10 from "../../../assets/images/freterium-logistic-screen10.png";
+import freteriumLogisticScreen11 from "../../../assets/images/freterium-logistic-screen11.png";
+import freteriumLogisticScreen12 from "../../../assets/images/freterium-logistic-screen12.png";
+import freteriumLogisticScreen13 from "../../../assets/images/freterium-logistic-screen13.png";
+import freteriumLogisticScreen14 from "../../../assets/images/freterium-logistic-screen14.png";
+import freteriumLogisticScreen15 from "../../../assets/images/freterium-logistic-screen15.png";
+import freteriumLogisticScreen16 from "../../../assets/images/freterium-logistic-screen16.png";
+import freteriumLogisticScreen17 from "../../../assets/images/freterium-logistic-screen17.png";
+import freteriumLogisticScreen18 from "../../../assets/images/freterium-logistic-screen18.png";
+import freteriumLogisticScreen19 from "../../../assets/images/freterium-logistic-screen19.png";
+
+import caseStudyHeroFreterium from "../../../assets/images/case-study-hero-freterium.png";
 
 // Styles
 import "swiper/css";
@@ -56,7 +58,7 @@ const freteriumHeroItem = {
   expertise: "UX design, Research & Workshop",
   platforms: "Responsive Web App",
   role: "Senior UX Designer",
-  img: CaseStudyHeroFreterium,
+  img: caseStudyHeroFreterium,
   year: "2022—2023",
   to: "https://www.freterium.com/",
 };
@@ -364,61 +366,118 @@ const FreteriumCaseStudy = () => {
               style={{ height: "620px" }}
             >
               <SwiperSlide>
-                <FreteriumLogisticScreen1 />
+                <img
+                  src={freteriumLogisticScreen1}
+                  alt="Freterium Logistic Screen Design 1"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <FreteriumLogisticScreen2 />
+                <img
+                  src={freteriumLogisticScreen2}
+                  alt="Freterium Logistic Screen Design 2"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <FreteriumLogisticScreen3 />
+                <img
+                  src={freteriumLogisticScreen3}
+                  alt="Freterium Logistic Screen Design 3"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <FreteriumLogisticScreen4 />
+                <img
+                  src={freteriumLogisticScreen4}
+                  alt="Freterium Logistic Screen Design 4"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <FreteriumLogisticScreen5 />
+                <img
+                  src={freteriumLogisticScreen5}
+                  alt="Freterium Logistic Screen Design 5"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <FreteriumLogisticScreen6 />
+                <img
+                  src={freteriumLogisticScreen6}
+                  alt="Freterium Logistic Screen Design 6"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <FreteriumLogisticScreen7 />
+                <img
+                  src={freteriumLogisticScreen7}
+                  alt="Freterium Logistic Screen Design 7"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <FreteriumLogisticScreen8 />
+                <img
+                  src={freteriumLogisticScreen8}
+                  alt="Freterium Logistic Screen Design 8"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <FreteriumLogisticScreen9 />
+                <img
+                  src={freteriumLogisticScreen9}
+                  alt="Freterium Logistic Screen Design 9"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <FreteriumLogisticScreen10 />
+                <img
+                  src={freteriumLogisticScreen10}
+                  alt="Freterium Logistic Screen Design 10"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <FreteriumLogisticScreen11 />
+                <img
+                  src={freteriumLogisticScreen11}
+                  alt="Freterium Logistic Screen Design 11"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <FreteriumLogisticScreen12 />
+                <img
+                  src={freteriumLogisticScreen12}
+                  alt="Freterium Logistic Screen Design 12"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <FreteriumLogisticScreen13 />
+                <img
+                  src={freteriumLogisticScreen13}
+                  alt="Freterium Logistic Screen Design 13"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <FreteriumLogisticScreen14 />
+                <img
+                  src={freteriumLogisticScreen14}
+                  alt="Freterium Logistic Screen Design 14"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <FreteriumLogisticScreen15 />
+                <img
+                  src={freteriumLogisticScreen15}
+                  alt="Freterium Logistic Screen Design 15"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <FreteriumLogisticScreen16 />
+                <img
+                  src={freteriumLogisticScreen16}
+                  alt="Freterium Logistic Screen Design 16"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <FreteriumLogisticScreen17 />
+                <img
+                  src={freteriumLogisticScreen17}
+                  alt="Freterium Logistic Screen Design 17"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <FreteriumLogisticScreen18 />
+                <img
+                  src={freteriumLogisticScreen18}
+                  alt="Freterium Logistic Screen Design 18"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <FreteriumLogisticScreen19 />
+                <img
+                  src={freteriumLogisticScreen19}
+                  alt="Freterium Logistic Screen Design 19"
+                />
               </SwiperSlide>
             </Swiper>
           </CaseStudyDetailContainer>
