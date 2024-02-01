@@ -4,6 +4,7 @@ import { CASE_STUDY_ITEMS as caseStudyItems } from "../../../components/case-stu
 // Components
 import { Fragment } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
 import { MdAlarm } from "react-icons/md";
 import { AiFillCheckCircle, AiFillHeart } from "react-icons/ai";
 import { RiAlarmFill } from "react-icons/ri";
@@ -45,6 +46,7 @@ import caseStudyHeroFreterium from "../../../assets/images/case-study-hero-frete
 
 // Styles
 import "swiper/css";
+import "swiper/css/navigation";
 import {
   FreteriumUserFlowChartWrapper,
   FreteriumParticipantGroup,
@@ -353,7 +355,8 @@ const FreteriumCaseStudy = () => {
             style={{ maxWidth: "796px" }}
           >
             <h2>
-              Take a look at the New experience of listing properties on Bongalo
+              New onboarding experience that lead to early user to
+              seeing product value
             </h2>
             <span className="case-study-note-box">
               NB: swipe right to view more mockups
@@ -361,120 +364,140 @@ const FreteriumCaseStudy = () => {
           </CaseStudyDetailContainer>
           <CaseStudyDetailContainer style={{ maxWidth: "1320px" }}>
             <Swiper
-              slidesPerView={2}
-              spaceBetween={220}
+              modules={[Navigation]}
+              navigation
+              slidesPerView={1}
               style={{ height: "620px" }}
             >
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={freteriumLogisticScreen1}
                   alt="Freterium Logistic Screen Design 1"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={freteriumLogisticScreen2}
                   alt="Freterium Logistic Screen Design 2"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={freteriumLogisticScreen3}
                   alt="Freterium Logistic Screen Design 3"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={freteriumLogisticScreen4}
                   alt="Freterium Logistic Screen Design 4"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={freteriumLogisticScreen5}
                   alt="Freterium Logistic Screen Design 5"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={freteriumLogisticScreen6}
                   alt="Freterium Logistic Screen Design 6"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={freteriumLogisticScreen7}
                   alt="Freterium Logistic Screen Design 7"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={freteriumLogisticScreen8}
                   alt="Freterium Logistic Screen Design 8"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={freteriumLogisticScreen9}
                   alt="Freterium Logistic Screen Design 9"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={freteriumLogisticScreen10}
                   alt="Freterium Logistic Screen Design 10"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={freteriumLogisticScreen11}
                   alt="Freterium Logistic Screen Design 11"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={freteriumLogisticScreen12}
                   alt="Freterium Logistic Screen Design 12"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={freteriumLogisticScreen13}
                   alt="Freterium Logistic Screen Design 13"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={freteriumLogisticScreen14}
                   alt="Freterium Logistic Screen Design 14"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={freteriumLogisticScreen15}
                   alt="Freterium Logistic Screen Design 15"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={freteriumLogisticScreen16}
                   alt="Freterium Logistic Screen Design 16"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={freteriumLogisticScreen17}
                   alt="Freterium Logistic Screen Design 17"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={freteriumLogisticScreen18}
                   alt="Freterium Logistic Screen Design 18"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={freteriumLogisticScreen19}
                   alt="Freterium Logistic Screen Design 19"
                 />

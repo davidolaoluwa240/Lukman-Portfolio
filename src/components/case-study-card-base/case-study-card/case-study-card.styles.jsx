@@ -14,6 +14,10 @@ export const CaseStudyCardWrapper = styled.figure`
   align-items: center;
   flex-direction: column;
   position: relative;
+
+  img {
+    width: 90%;
+  }
 `;
 
 export const CaseStudyCardCaption = styled.figcaption`

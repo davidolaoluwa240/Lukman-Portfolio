@@ -232,6 +232,14 @@ blockquote {
   justify-content: space-between;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .d-block {
   display: block;
+}
+
+.d-none {
+  display: none;
 }

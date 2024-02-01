@@ -4,6 +4,7 @@ import { CASE_STUDY_ITEMS as caseStudyItems } from "../../../components/case-stu
 // Components
 import { Fragment } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
 import { CaseStudyDetailHero } from "../../../components/case-study-detail-hero/case-study-detail-hero.component";
 import { CaseStudyDetailFooter } from "../../../components/case-study-detail-footer/case-study-detail-footer.component";
 import { QuoteBox } from "../../../components/quote-box/quote-box.component";
@@ -53,6 +54,7 @@ import caseStudyHeroAsusu from "../../../assets/images/case-study-hero-asusu.png
 
 // Styles
 import "swiper/css";
+import "swiper/css/navigation";
 
 // Static Data
 const asusuHeroItem = {
@@ -542,45 +544,83 @@ const AsusuCaseStudy = () => {
           </CaseStudyDetailContainer>
           <CaseStudyDetailContainer style={{ maxWidth: "1320px" }}>
             <Swiper
-              slidesPerView={2}
-              spaceBetween={220}
-              style={{ height: "773.071px" }}
+              modules={[Navigation]}
+              navigation
+              style={{ height: "873.071px" }}
             >
               <SwiperSlide>
-                <img src={asusuPolishedDesign1} alt="Asusu Polished Design 1" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={asusuPolishedDesign2} alt="Asusu Polished Design 2" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={asusuPolishedDesign3} alt="Asusu Polished Design 3" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={asusuPolishedDesign4} alt="Asusu Polished Design 4" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={asusuPolishedDesign5} alt="Asusu Polished Design 5" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={asusuPolishedDesign6} alt="Asusu Polished Design 6" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={asusuPolishedDesign7} alt="Asusu Polished Design 7" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={asusuPolishedDesign8} alt="Asusu Polished Design 8" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={asusuPolishedDesign9} alt="Asusu Polished Design 9" />
+                <img
+                  className="w-full"
+                  src={asusuPolishedDesign1}
+                  alt="Asusu Polished Design 1"
+                />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
+                  src={asusuPolishedDesign2}
+                  alt="Asusu Polished Design 2"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  className="w-full"
+                  src={asusuPolishedDesign3}
+                  alt="Asusu Polished Design 3"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  className="w-full"
+                  src={asusuPolishedDesign4}
+                  alt="Asusu Polished Design 4"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  className="w-full"
+                  src={asusuPolishedDesign5}
+                  alt="Asusu Polished Design 5"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  className="w-full"
+                  src={asusuPolishedDesign6}
+                  alt="Asusu Polished Design 6"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  className="w-full"
+                  src={asusuPolishedDesign7}
+                  alt="Asusu Polished Design 7"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  className="w-full"
+                  src={asusuPolishedDesign8}
+                  alt="Asusu Polished Design 8"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  className="w-full"
+                  src={asusuPolishedDesign9}
+                  alt="Asusu Polished Design 9"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  className="w-full"
                   src={asusuPolishedDesign10}
                   alt="Asusu Polished Design 10"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={asusuPolishedDesign11}
                   alt="Asusu Polished Design 11"
                 />
@@ -605,96 +645,111 @@ const AsusuCaseStudy = () => {
           </CaseStudyDetailContainer>
           <CaseStudyDetailContainer style={{ maxWidth: "1320px" }}>
             <Swiper
-              slidesPerView={2}
-              spaceBetween={220}
-              style={{ height: "774.993px" }}
+              modules={[Navigation]}
+              navigation
+              style={{ height: "874.993px" }}
             >
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={asusuPolishedDesignOther1}
                   alt="Asusu Polished Design Other 1"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={asusuPolishedDesignOther2}
                   alt="Asusu Polished Design Other 2"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={asusuPolishedDesignOther3}
                   alt="Asusu Polished Design Other 3"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={asusuPolishedDesignOther4}
                   alt="Asusu Polished Design Other 4"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={asusuPolishedDesignOther5}
                   alt="Asusu Polished Design Other 5"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={asusuPolishedDesignOther6}
                   alt="Asusu Polished Design Other 6"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={asusuPolishedDesignOther7}
                   alt="Asusu Polished Design Other 7"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={asusuPolishedDesignOther8}
                   alt="Asusu Polished Design Other 8"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={asusuPolishedDesignOther9}
                   alt="Asusu Polished Design Other 9"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={asusuPolishedDesignOther10}
                   alt="Asusu Polished Design Other 10"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={asusuPolishedDesignOther11}
                   alt="Asusu Polished Design Other 11"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={asusuPolishedDesignOther12}
                   alt="Asusu Polished Design Other 12"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={asusuPolishedDesignOther13}
                   alt="Asusu Polished Design Other 13"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={asusuPolishedDesignOther14}
                   alt="Asusu Polished Design Other 14"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={asusuPolishedDesignOther15}
                   alt="Asusu Polished Design Other 15"
                 />

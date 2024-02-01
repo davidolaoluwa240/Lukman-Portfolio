@@ -8,6 +8,7 @@ export const SideProjectsCardWrapper = styled.li`
   cursor: pointer;
   border-radius: 12px;
   transition: background 0.3s linear;
+  position: relative;
 
   svg {
     opacity: 0.7;
@@ -41,4 +42,13 @@ export const SideProjectsCardContent = styled.div`
     transition: opacity 0.3s linear;
     opacity: 0.7;
   }
+`;
+
+export const SideProjectsCardLink = styled.a`
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 `;

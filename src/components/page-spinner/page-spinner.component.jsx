@@ -1,43 +1,13 @@
 // Styles
 import "./page-spinner.styles.css";
 
+// const QUOTES = [
+//   "“Our role is to imagine products that don’t exist and guide them to life.” – Apple designer Christopher Stringer",
+//   "“It’s all about one thing: creative problem-solving to get the story out.” – Bob Greenberg, founder, chairman and CEO of R/GA",
+//   "“The only important thing about design is how it relates to people.” – designer, educator and author Victor Papanek",
+//   "",
+// ];
+
 export const PageSpinner = () => {
-  return (
-    <div className="spinner">
-      <div className="dank-ass-loader">
-        <div className="row">
-          <div className="arrow up outer outer-18"></div>
-          <div className="arrow down outer outer-17"></div>
-          <div className="arrow up outer outer-16"></div>
-          <div className="arrow down outer outer-15"></div>
-          <div className="arrow up outer outer-14"></div>
-        </div>
-        <div className="row">
-          <div className="arrow up outer outer-1"></div>
-          <div className="arrow down outer outer-2"></div>
-          <div className="arrow up inner inner-6"></div>
-          <div className="arrow down inner inner-5"></div>
-          <div className="arrow up inner inner-4"></div>
-          <div className="arrow down outer outer-13"></div>
-          <div className="arrow up outer outer-12"></div>
-        </div>
-        <div className="row">
-          <div className="arrow down outer outer-3"></div>
-          <div className="arrow up outer outer-4"></div>
-          <div className="arrow down inner inner-1"></div>
-          <div className="arrow up inner inner-2"></div>
-          <div className="arrow down inner inner-3"></div>
-          <div className="arrow up outer outer-11"></div>
-          <div className="arrow down outer outer-10"></div>
-        </div>
-        <div className="row">
-          <div className="arrow down outer outer-5"></div>
-          <div className="arrow up outer outer-6"></div>
-          <div className="arrow down outer outer-7"></div>
-          <div className="arrow up outer outer-8"></div>
-          <div className="arrow down outer outer-9"></div>
-        </div>
-      </div>
-    </div>
-  );
+  return <div className="spinner">Spinner Quotes Here</div>;
 };

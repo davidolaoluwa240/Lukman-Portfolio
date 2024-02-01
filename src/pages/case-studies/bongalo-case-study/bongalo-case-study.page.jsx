@@ -4,6 +4,7 @@ import { CASE_STUDY_ITEMS as caseStudyItems } from "../../../components/case-stu
 // Components
 import { Fragment } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
 import { CaseStudyDetailHero } from "../../../components/case-study-detail-hero/case-study-detail-hero.component";
 import { CaseStudyDetailFooter } from "../../../components/case-study-detail-footer/case-study-detail-footer.component";
 import { QuoteBox } from "../../../components/quote-box/quote-box.component";
@@ -56,8 +57,8 @@ import bongaloCurListing20 from "../../../assets/images/bongalo-cur-listing20.pn
 import bongaloCurListing21 from "../../../assets/images/bongalo-cur-listing21.png";
 import bongaloCurListing22 from "../../../assets/images/bongalo-cur-listing22.png";
 
-import BongaloUserFlow1 from "../../../assets/images/bongalo-user-flow1.svg?react";
-import BongaloUserFlow2 from "../../../assets/images/bongalo-user-flow2.svg?react";
+import bongaloUserFlow1 from "../../../assets/images/bongalo-user-flow1.png";
+import bongaloUserFlow2 from "../../../assets/images/bongalo-user-flow2.png";
 
 import bongaloMoreScreen1 from "../../../assets/images/bongalo-more-screen1.png";
 import bongaloMoreScreen2 from "../../../assets/images/bongalo-more-screen2.png";
@@ -69,6 +70,7 @@ import caseStudyHeroBongalo from "../../../assets/images/case-study-hero-bongalo
 
 // Styles
 import "swiper/css";
+import "swiper/css/navigation";
 
 // Static Data
 const bongaloHeroItem = {
@@ -279,114 +281,132 @@ const BongaloCaseStudy = () => {
           </CaseStudyDetailContainer>
           <CaseStudyDetailContainer style={{ maxWidth: "1290px" }}>
             <Swiper
-              slidesPerView={3}
-              spaceBetween={64}
-              style={{ height: "350px" }}
+              modules={[Navigation]}
+              navigation
+              style={{ height: "890px" }}
             >
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloPreListing1}
                   alt="Bongalo Previous Listing Design Step 1"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloPreListing2}
                   alt="Bongalo Previous Listing Design Step 2"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloPreListing3}
                   alt="Bongalo Previous Listing Design Step 3"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloPreListing4}
                   alt="Bongalo Previous Listing Design Step 4"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloPreListing5}
                   alt="Bongalo Previous Listing Design Step 5"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloPreListing6}
                   alt="Bongalo Previous Listing Design Step 6"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloPreListing7}
                   alt="Bongalo Previous Listing Design Step 7"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloPreListing8}
                   alt="Bongalo Previous Listing Design Step 8"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloPreListing9}
                   alt="Bongalo Previous Listing Design Step 9"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloPreListing10}
                   alt="Bongalo Previous Listing Design Step 10"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloPreListing11}
                   alt="Bongalo Previous Listing Design Step 11"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloPreListing12}
                   alt="Bongalo Previous Listing Design Step 12"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloPreListing13}
                   alt="Bongalo Previous Listing Design Step 13"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloPreListing14}
                   alt="Bongalo Previous Listing Design Step 14"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloPreListing15}
                   alt="Bongalo Previous Listing Design Step 15"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloPreListing16}
                   alt="Bongalo Previous Listing Design Step 16"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloPreListing17}
                   alt="Bongalo Previous Listing Design Step 17"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloPreListing18}
                   alt="Bongalo Previous Listing Design Step 18"
                 />
@@ -416,15 +436,15 @@ const BongaloCaseStudy = () => {
           </CaseStudyDetailContainer>
           <CaseStudyDetailContainer style={{ maxWidth: "1320px" }}>
             <Swiper
-              slidesPerView={"auto"}
-              spaceBetween={12}
+              modules={[Navigation]}
+              navigation
               style={{ height: "684px" }}
             >
               <SwiperSlide>
-                <BongaloUserFlow1 style={{ boxShadow: "none" }} />
+                <img className="w-full" src={bongaloUserFlow1} />
               </SwiperSlide>
               <SwiperSlide>
-                <BongaloUserFlow2 style={{ boxShadow: "none" }} />
+                <img className="w-full" src={bongaloUserFlow2} />
               </SwiperSlide>
             </Swiper>
           </CaseStudyDetailContainer>
@@ -457,138 +477,160 @@ const BongaloCaseStudy = () => {
           </CaseStudyDetailContainer>
           <CaseStudyDetailContainer style={{ maxWidth: "1320px" }}>
             <Swiper
-              slidesPerView={2}
-              spaceBetween={190}
-              style={{ height: "590px" }}
+              modules={[Navigation]}
+              navigation
+              style={{ height: "990px" }}
             >
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloCurListing1}
                   alt="Bongalo current Listing Design Step 1"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloCurListing2}
                   alt="Bongalo current Listing Design Step 2"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloCurListing3}
                   alt="Bongalo current Listing Design Step 3"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloCurListing4}
                   alt="Bongalo current Listing Design Step 4"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloCurListing5}
                   alt="Bongalo current Listing Design Step 5"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloCurListing6}
                   alt="Bongalo current Listing Design Step 6"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloCurListing7}
                   alt="Bongalo current Listing Design Step 7"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloCurListing8}
                   alt="Bongalo current Listing Design Step 8"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloCurListing9}
                   alt="Bongalo current Listing Design Step 9"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloCurListing10}
                   alt="Bongalo current Listing Design Step 10"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloCurListing11}
                   alt="Bongalo current Listing Design Step 11"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloCurListing12}
                   alt="Bongalo current Listing Design Step 12"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloCurListing13}
                   alt="Bongalo current Listing Design Step 13"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloCurListing14}
                   alt="Bongalo current Listing Design Step 14"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloCurListing15}
                   alt="Bongalo current Listing Design Step 15"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloCurListing16}
                   alt="Bongalo current Listing Design Step 16"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloCurListing17}
                   alt="Bongalo current Listing Design Step 17"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloCurListing18}
                   alt="Bongalo current Listing Design Step 18"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloCurListing19}
                   alt="Bongalo current Listing Design Step 19"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloCurListing20}
                   alt="Bongalo current Listing Design Step 20"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloCurListing21}
                   alt="Bongalo current Listing Design Step 21"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
+                  className="w-full"
                   src={bongaloCurListing22}
                   alt="Bongalo current Listing Design Step 22"
                 />
@@ -671,24 +713,44 @@ const BongaloCaseStudy = () => {
           </CaseStudyDetailContainer>
           <CaseStudyDetailContainer style={{ maxWidth: "1320px" }}>
             <Swiper
-              slidesPerView={2}
-              spaceBetween={220}
-              style={{ height: "570px" }}
+              modules={[Navigation]}
+              navigation
+              style={{ height: "1090px" }}
             >
               <SwiperSlide>
-                <img src={bongaloMoreScreen1} alt="Bongalo Other Designs 1" />
+                <img
+                  className="w-full"
+                  src={bongaloMoreScreen1}
+                  alt="Bongalo Other Designs 1"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <img src={bongaloMoreScreen2} alt="Bongalo Other Designs 2" />
+                <img
+                  className="w-full"
+                  src={bongaloMoreScreen2}
+                  alt="Bongalo Other Designs 2"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <img src={bongaloMoreScreen3} alt="Bongalo Other Designs 3" />
+                <img
+                  className="w-full"
+                  src={bongaloMoreScreen3}
+                  alt="Bongalo Other Designs 3"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <img src={bongaloMoreScreen4} alt="Bongalo Other Designs 4" />
+                <img
+                  className="w-full"
+                  src={bongaloMoreScreen4}
+                  alt="Bongalo Other Designs 4"
+                />
               </SwiperSlide>
               <SwiperSlide>
-                <img src={bongaloMoreScreen5} alt="Bongalo Other Designs 5" />
+                <img
+                  className="w-full"
+                  src={bongaloMoreScreen5}
+                  alt="Bongalo Other Designs 5"
+                />
               </SwiperSlide>
             </Swiper>
           </CaseStudyDetailContainer>
