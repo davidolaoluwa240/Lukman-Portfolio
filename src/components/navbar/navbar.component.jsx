@@ -38,7 +38,7 @@ export const Navbar = ({ color }) => {
             <NavbarLink
               as="a"
               target="_blank"
-              href="https://drive.google.com/file/d/13U4t4lr6T_ydrKNZ-zohZ2B950oyudqh/view?usp=sharing"
+              href="https://drive.google.com/file/d/1nvaIwkgkc60Prjujm02gI_DAfAD0WVl-/view"
             >
               Resume
             </NavbarLink>
